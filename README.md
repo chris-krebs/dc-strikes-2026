@@ -34,7 +34,7 @@ scripts/                      build_data.py rebuilds data/ and img/; pull_ioda.p
 ## Updating
 
 1. Edit the working files in the investigation folder (CSV tables, GeoPackage exports, imagery, svEye exports).
-2. `python3 scripts/build_data.py` (needs pandas and Pillow).
+2. `python3 scripts/build_data.py` (needs pandas and Pillow). It also writes the strike entries, tables and dates into `index.html` as plain HTML (`scripts/prerender.py`), so the content is readable without JavaScript, by search engines, link previews and AI summarisers. Edit text outside the `<!--B:...-->` markers only; anything between them is overwritten.
 3. Commit and push. GitHub Pages republishes within a minute or two.
 
 `cloudflare_embeds.json` is not rebuilt by the script. To add a chart: on radar.cloudflare.com set the network and date range, click the share icon, choose **Fixed Time**, and copy the `src` of the iframe into the file with a title and citation. Fixed Time keeps the strike period in view; Real Time slides forward and the event drops out of the chart within days.

@@ -399,3 +399,8 @@ for slug, items in IMAGES.items():
 
 (DATA / "build.json").write_text(json.dumps({"built_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%MZ")}))
 print("done:", sorted(p.name for p in DATA.iterdir()))
+
+# ---------------------------------------------------------------- static copy of the content in index.html
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import prerender  # noqa: E402
+prerender.run()
