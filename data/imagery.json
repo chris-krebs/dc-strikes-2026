@@ -1,0 +1,111 @@
+{
+ "sasovo": [
+  {
+   "src": "img/sasovo/firms.jpg",
+   "w": 1600,
+   "h": 1008,
+   "title": "FIRMS thermal anomalies, 6–14 Oct",
+   "result": "detection",
+   "caption": "Detections cluster over the main hall. Each square is a satellite pixel footprint (375 m or 1 km), not the exact fire position.",
+   "credit": "NASA FIRMS (VIIRS/MODIS thermal anomalies). Basemap as shown in FIRMS"
+  },
+  {
+   "src": "img/sasovo/s2-before.jpg",
+   "w": 1322,
+   "h": 1171,
+   "title": "Sentinel-2, 4 Oct (before)",
+   "result": "reference",
+   "caption": "True colour, 10 m resolution.",
+   "credit": "Contains modified Copernicus Sentinel data 2026, processed with Copernicus Browser"
+  },
+  {
+   "src": "img/sasovo/s2-after.jpg",
+   "w": 1322,
+   "h": 1171,
+   "title": "Sentinel-2, 9 Oct (after)",
+   "result": "inconclusive",
+   "caption": "Haze and cloud cover the scene. No building-level change can be read at 10 m.",
+   "credit": "Contains modified Copernicus Sentinel data 2026, processed with Copernicus Browser"
+  }
+ ],
+ "kaluga": [
+  {
+   "src": "img/kaluga/firms.jpg",
+   "w": 1600,
+   "h": 1008,
+   "title": "FIRMS thermal anomalies, 6–14 Oct",
+   "result": "none",
+   "caption": "No detections over the site. A fire that is small, short or under cloud can be missed, so this does not rule out damage.",
+   "credit": "NASA FIRMS (VIIRS/MODIS thermal anomalies). Basemap as shown in FIRMS"
+  }
+ ],
+ "vladimir": [
+  {
+   "src": "img/vladimir/firms.jpg",
+   "w": 1600,
+   "h": 1008,
+   "title": "FIRMS thermal anomalies, 6–14 Oct",
+   "result": "none",
+   "caption": "No detections over the site. The FIRMS basemap predates the later buildings on the site.",
+   "credit": "NASA FIRMS (VIIRS/MODIS thermal anomalies). Basemap as shown in FIRMS"
+  },
+  {
+   "src": "img/vladimir/s2-before.jpg",
+   "w": 1322,
+   "h": 1171,
+   "title": "Sentinel-2, 4 Oct (before)",
+   "result": "reference",
+   "caption": "True colour, 10 m resolution.",
+   "credit": "Contains modified Copernicus Sentinel data 2026, processed with Copernicus Browser"
+  },
+  {
+   "src": "img/vladimir/s2-after.jpg",
+   "w": 1322,
+   "h": 1171,
+   "title": "Sentinel-2, 17 Oct (after)",
+   "result": "consistent",
+   "caption": "Roof tone changes on two buildings of the central block. At 10 m this is consistent with the roof damage seen in higher-resolution imagery (RFE/RL via Militarnyi), not proof of it.",
+   "credit": "Contains modified Copernicus Sentinel data 2026, processed with Copernicus Browser"
+  }
+ ],
+ "balakovo": [
+  {
+   "src": "img/balakovo/firms.jpg",
+   "w": 1600,
+   "h": 1008,
+   "title": "FIRMS thermal anomalies, 6–14 Oct",
+   "result": "detection",
+   "caption": "Detections on and around the complex, most of them on open ground.",
+   "credit": "NASA FIRMS (VIIRS/MODIS thermal anomalies). Basemap as shown in FIRMS"
+  },
+  {
+   "src": "img/balakovo/s2-before.jpg",
+   "w": 1322,
+   "h": 1169,
+   "title": "Sentinel-2, 5 Oct (before)",
+   "result": "reference",
+   "caption": "True colour, 10 m resolution.",
+   "credit": "Contains modified Copernicus Sentinel data 2026, processed with Copernicus Browser"
+  },
+  {
+   "src": "img/balakovo/s2-after.jpg",
+   "w": 1322,
+   "h": 1169,
+   "title": "Sentinel-2, 15 Oct (after)",
+   "result": "consistent",
+   "caption": "New burn scars on open ground around the complex match most FIRMS detections. Grass fires from debris and unrelated burning both fit. No building-level change at 10 m.",
+   "credit": "Contains modified Copernicus Sentinel data 2026, processed with Copernicus Browser"
+  }
+ ],
+ "novosergievka": [
+  {
+   "src": "img/novosergievka/firms.jpg",
+   "w": 1600,
+   "h": 1008,
+   "title": "FIRMS thermal anomalies, 17–18 Oct",
+   "result": "none",
+   "caption": "No detections over the site. No cloud-free Sentinel-2 scene after the strike yet.",
+   "credit": "NASA FIRMS (VIIRS/MODIS thermal anomalies). Basemap as shown in FIRMS"
+  }
+ ]
+}

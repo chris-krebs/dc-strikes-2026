@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Strikes on Russian data centers, October 2026</title>
+<meta name="description" content="Open-source investigation of five drone strikes on Yandex, Sber and VK data centers in Russia, 8–18 October 2026: locations, imagery, network measurements, media coverage and reported service disruption, each claim graded by evidence.">
+<meta name="author" content="Kristof Krebs">
+<!-- REVIEW PERIOD: keeps search engines away. Delete this line when publishing. -->
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0a0a0a">
+<meta property="og:title" content="Strikes on Russian data centers, October 2026">
+<meta property="og:description" content="Five strikes, 8–18 October 2026. Locations, imagery, IODA and Cloudflare network data and graded reports of disruption.">
+<meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css" integrity="sha384-uTttxo/aOKbdE5RlD/SPzSDoDmNvGlUYPjONi2MN/b7c9HPSvW07OIuyP7uL6jxK" crossorigin="anonymous">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<a class="skip" href="#strikes">Skip to the strikes</a>
+
+<header class="masthead">
+  <div class="wrap masthead-row">
+    <p class="byline">An open-source investigation by <a data-gh="user" href="#method">Kristof Krebs</a></p>
+    <nav aria-label="Sections">
+      <a href="#strikes">Strikes</a>
+      <a href="#network">Network</a>
+      <a href="#traffic">Traffic</a>
+      <a href="#media">Media</a>
+      <a href="#disruptions">Disruptions</a>
+      <a href="#recovery">Recovery</a>
+      <a href="#method">Method</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero wrap" aria-labelledby="title">
+    <h1 id="title">Five strikes on Russian data centers, 8–18 October 2026</h1>
+    <p class="lede">Between 8 and 18 October 2026, drones hit three Yandex data centers, a Sberbank data center under construction and a VK data center near St Petersburg. This page maps the sites and sets out what operators said, what satellites, network measurements and media coverage show, and which reported disruptions hold true.</p>
+
+    <ol class="timeline" id="timeline" aria-label="Strike sequence"></ol>
+
+    <div class="map-frame">
+      <div id="map" role="region" aria-label="Map of struck sites, data centers and telecom infrastructure in Russia"></div>
+      <form class="map-panel" id="map-panel" aria-label="Map layers">
+        <fieldset>
+          <legend>Base map</legend>
+          <label><input type="radio" name="base" value="osm"> OpenStreetMap</label>
+          <label><input type="radio" name="base" value="versatiles" checked> VersaTiles (dark)</label>
+          <label><input type="radio" name="base" value="satellite"> Satellite (Esri)</label>
+        </fieldset>
+        <fieldset>
+          <legend>Layers</legend>
+          <label><input type="checkbox" name="layer" value="struck" checked><i class="sw sw-struck"></i>Struck data centers <span class="n" data-count="struck"></span></label>
+          <label><input type="checkbox" name="layer" value="dcs" checked><i class="sw sw-dcs"></i>Telecom infrastructure <span class="n" data-count="dcs"></span></label>
+          <label><input type="checkbox" name="layer" value="telecom"><i class="sw sw-telecom"></i>All data centers <span class="n" data-count="telecom"></span></label>
+        </fieldset>
+      </form>
+    </div>
+    <p class="note">Struck data centers: building outlines and strike locations. Telecom infrastructure: OpenStreetMap buildings tagged or named as data centers, and PeeringDB facilities. All data centers: the same two sources merged and deduplicated. Neither source is complete. The Sberbank site at Balakovo, for example, is in neither and was added by hand.</p>
+  </section>
+
+  <section id="strikes" class="wrap" aria-labelledby="strikes-h">
+    <h2 id="strikes-h">The strikes</h2>
+    <p class="section-intro">In order. Times are as reported. UTC is given only where the source states a clock time and time zone.</p>
+    <div id="strike-list"></div>
+  </section>
+
+  <section id="network" class="wrap" aria-labelledby="network-h">
+    <h2 id="network-h">Network reachability</h2>
+    <p class="section-intro">IODA pings every /24 address block of a network and counts how many answer. The chart shows that count as a share of the 6–7 October median. A fall means address space stopped responding. It does not measure whether a service worked for its users, and it cannot say which building went dark.</p>
+    <figure class="chart-fig ioda">
+      <figcaption class="chart-title">Active-probing reachability of Yandex Cloud and VK networks, 6–19 Oct 2026 (UTC)</figcaption>
+      <div class="chart-legend" id="chart-legend"></div>
+      <div id="ioda-chart" class="chart" role="img" aria-label="Line chart of responsive address blocks for Yandex Cloud and VKontakte, 6 to 19 October 2026, as a percentage of the 6–7 October median"></div>
+      <p class="chart-foot">Data: IODA (Georgia Tech), ping-slash24, 30-min medians, pulled <span id="ioda-pulled"></span>. Grey bands: reported strike windows from operator/press reports, not inferred from this data.</p>
+      <div class="chart-notes">
+        <p><span id="ioda-summary"></span></p>
+        <p>The drop on both lines just after 21:00 UTC on 15 October (00:00–01:20 Moscow time on 16 October) follows a gap in IODA's data. IODA recorded no probes for either network for about 80 minutes. Probing resumed with only 6 and 3 blocks answering, and both returned to their previous levels within 30 minutes. Both networks did this at the same minute, and neither changed its BGP announcements, so this is most likely IODA's measurement restarting, not an outage. No strike on data infrastructure was reported that night.</p>
+        <p>The VK dip to about 65% around 11:30–12:30 Moscow time on 16 October has no data gap and no explanation found so far.</p>
+        <p>Download: <a href="data/ioda_reachability.json">chart data</a>, <a href="data/raw/ioda_asn_signals.csv">full IODA signal table</a>.</p>
+      </div>
+      <details class="table-view">
+        <summary>Show as a table</summary>
+        <div id="ioda-table"></div>
+      </details>
+    </figure>
+  </section>
+
+  <section id="traffic" class="wrap" aria-labelledby="traffic-h">
+    <h2 id="traffic-h">Traffic seen by Cloudflare</h2>
+    <p class="section-intro">Cloudflare Radar charts for Russia and for the Yandex, Sberbank and VK networks, fixed to 1–19 October 2026. They measure traffic reaching Cloudflare, not reachability, so they complement the IODA chart rather than repeat it. The charts are served live by Cloudflare.</p>
+    <div class="tabs" id="radar-tabs" role="tablist" aria-label="Network"></div>
+    <div id="radar-panels"></div>
+  </section>
+
+  <section id="media" class="wrap" aria-labelledby="media-h">
+    <h2 id="media-h">Media coverage</h2>
+    <p class="section-intro">How much the press wrote about each operator, from Semantic Visions' svEye media-monitoring service. svEye groups articles from news sources in many languages into events and stories and summarises them automatically. The counts show attention, not facts. The story summaries are machine-generated and have not been checked against sources; where they make claims this investigation could not confirm, that is noted below.</p>
+    <figure class="chart-fig">
+      <figcaption class="chart-title">Articles per day in svEye event signals, 1–19 Oct 2026</figcaption>
+      <div id="media-chart" class="media-chart"></div>
+      <p class="chart-foot">Data: Semantic Visions svEye, <span id="media-source"></span>. Bars: articles per day across all svEye event signals for the company; each row has its own scale. An article can count under more than one event type. Red ticks: strike dates.</p>
+    </figure>
+
+    <h3>Largest strike-related stories</h3>
+    <div class="table-scroll"><table class="data" id="t-stories"></table></div>
+
+    <h3>Claims in the coverage this investigation has not confirmed</h3>
+    <div class="table-scroll"><table class="data claims">
+      <thead><tr><th>Claim in svEye summaries</th><th>What this investigation has</th></tr></thead>
+      <tbody>
+        <tr><td class="wide">Strikes “disabled up to 78% of Yandex Cloud”.</td><td class="wide">78% is the fall in IODA reachability for AS200350, the share of address blocks that stopped answering. It is not a measure of computing capacity lost. Grade B as a reachability figure only.</td></tr>
+        <tr><td>Yandex Search traffic cut by about 99%.</td><td>No source for this figure found. Yandex reported Search among the first services restored.</td></tr>
+        <tr><td>Two of three Yandex AI supercomputers (2,700 Nvidia A100) destroyed.</td><td>Yandex has not reported the status of Chervonenkis or Lyapunov (Sasovo). Galushkin (Vladimir) is “likely damaged” per a single outlet. Grade D.</td></tr>
+        <tr><td>VK lost up to 44% of traffic.</td><td>Matches NetBlocks' “56% of normal” on 18 October and IODA AS47541 at about 57% of baseline. Grade B.</td></tr>
+        <tr><td>The Balakovo strike also disrupted VK services.</td><td>Same-day complaint spikes covered many unrelated providers. No causal link established. Grade C.</td></tr>
+        <tr><td>Yandex and VK are negotiating a 50/50 joint venture of their cloud businesses.</td><td>Outside the scope of this investigation; reported by business media, not checked here.</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section id="disruptions" class="wrap" aria-labelledby="disruptions-h">
+    <h2 id="disruptions-h">Reported disruptions</h2>
+    <p class="section-intro">Every service effect found in reporting, one row per claim, with its strongest source and a grade. A row records that something was reported, not that the strike caused it. Where a causal link is doubtful the caveat says so.</p>
+    <div class="grade-key" id="grade-key"></div>
+    <div class="filters" role="group" aria-label="Filter disruptions">
+      <label>Strike <select id="f-event"><option value="">All</option></select></label>
+      <label>Grade <select id="f-grade"><option value="">All</option></select></label>
+      <label>Affected <select id="f-party"><option value="">All</option></select></label>
+      <span class="count" id="f-count" aria-live="polite"></span>
+    </div>
+    <div class="table-scroll"><table class="data" id="t-disruptions"></table></div>
+    <p class="download">Download: <a href="data/service_disruptions.csv">service_disruptions.csv</a></p>
+  </section>
+
+  <section id="recovery" class="wrap" aria-labelledby="recovery-h">
+    <h2 id="recovery-h">Recovery and response</h2>
+    <p class="section-intro">How long each damaged component is likely to take to come back, by tier, and what the operators are doing in the meantime. Rows marked “analyst estimate” are my assessment, not something an operator said.</p>
+    <div class="tiers" id="tiers"></div>
+    <div class="table-scroll"><table class="data" id="t-recovery"></table></div>
+    <h3>Migration and mitigation scenarios</h3>
+    <div class="table-scroll"><table class="data" id="t-migration"></table></div>
+    <p class="download">Download: <a href="data/recovery_tiers.csv">recovery_tiers.csv</a>, <a href="data/migration_scenarios.csv">migration_scenarios.csv</a></p>
+  </section>
+
+  <section id="method" class="wrap prose" aria-labelledby="method-h">
+    <h2 id="method-h">Method and limits</h2>
+
+    <h3>Evidence grades</h3>
+    <dl class="grades">
+      <dt><span class="grade g-A">A</span></dt><dd>Operator statement or status page, quoted directly or via a named outlet.</dd>
+      <dt><span class="grade g-B">B</span></dt><dd>Third-party measurement: IODA, RIPE, Cloudflare Radar or NetBlocks. My own IODA pull is reproducible; NetBlocks figures are not.</dd>
+      <dt><span class="grade g-C">C</span></dt><dd>User-complaint spike (DownDetector, Sboy.rf). Shows that people had problems, not why.</dd>
+      <dt><span class="grade g-D">D</span></dt><dd>Media claim without a stated source.</dd>
+    </dl>
+
+    <h3>Locations</h3>
+    <p>Strike sites are placed on the facility, not on the reported town, using operator addresses, OpenStreetMap footprints and imagery. The data-center layers come from an Overpass query of OpenStreetMap and the PeeringDB facility list for Russia. The Overpass query matched the text “ЦОД” inside unrelated words and pulled in some 200 workwear shops (“спецодежда”), grocery stores and traffic-control centers (ЦОДД). Those were filtered out before publishing: only objects tagged as data centers, or named as one as a whole word, are kept.</p>
+
+    <h3>Imagery</h3>
+    <p>Thermal anomalies come from NASA FIRMS. A FIRMS detection is a satellite pixel of 375 m or 1 km that was hotter than its surroundings during an overpass. It places a fire near a site, not in a particular building, and grass fires look the same as burning buildings. No detection is weak evidence: cloud, timing and small fires all cause misses. Sentinel-2 scenes are 10 m true colour from Copernicus Browser. At 10 m a damaged roof may change tone, but a single building cannot be confirmed as hit. Photographs and videos posted on X are linked, not republished.</p>
+
+    <h3>Network data</h3>
+    <p>IODA reachability counts responsive address blocks for a whole autonomous system. A network that serves several sites can lose one site without a visible drop, and a drop can come from power, routing or deliberate withdrawal as well as physical damage. The Kaluga strike left no visible change in AS200350, which does not show the site was undamaged. Sber's networks are not in the IODA pull; Cloudflare Radar covers them above.</p>
+
+    <h3>Open questions</h3>
+    <ul>
+      <li>Which VK facility at Novosergievka was hit: the 2011 data center or the newer M100 site.</li>
+      <li>The time of the VK strike. The source table gives 03:00 GMT+2, but IODA shows the drop at 02:50–03:00 Moscow time, an hour earlier.</li>
+      <li>The state of the Chervonenkis, Lyapunov and Galushkin supercomputers.</li>
+      <li>Why AS200350 announced 32 new prefixes from 17 October 17:20 UTC.</li>
+      <li>Whether AS47457 (SBERBANK-BALAKOVO-AS) carries traffic for the new Balakovo data center.</li>
+    </ul>
+
+    <h3>Sources</h3>
+    <ul class="src-list">
+      <li>OpenStreetMap via Overpass: data-center tags, data-center buildings, Yandex as operator, and names containing ЦОД, дата-центр or data center, for the Russian Federation. <details><summary>Query</summary><pre><code>[out:json][timeout:600];
+area["ISO3166-1"="RU"][admin_level=2]->.ru;
+(
+  nwr["telecom"="data_center"](area.ru);
+  nwr["building"="data_center"](area.ru);
+  nwr["industrial"="data_centre"](area.ru);
+  nwr["construction:telecom"="data_center"](area.ru);
+  nwr["operator"~"Яндекс|Yandex",i](area.ru);
+  nwr["name"~"ЦОД|дата-центр|data.?cent",i](area.ru);
+);
+out geom tags;</code></pre></details></li>
+      <li>PeeringDB facility list for Russia: <a href="https://www.peeringdb.com/api/fac?country=RU">peeringdb.com/api/fac?country=RU</a></li>
+      <li>NASA FIRMS and Copernicus Browser: links per site in each strike entry above.</li>
+      <li>Yandex Cloud status: <a href="https://status.yandex.cloud/ru/incidents/2092">incident 2092</a>, <a href="https://status.yandex.cloud/ru/timeline">timeline</a></li>
+      <li>IODA API v2, Georgia Tech: own pull on 19 October 2026, raw responses in <a href="data/raw/ioda_asn_signals.csv">data/raw</a>.</li>
+      <li>Cloudflare Radar: citations under each chart.</li>
+      <li>Semantic Visions svEye: media signals and story summaries for Yandex, Sberbank and VK, exported 19 October 2026.</li>
+      <li>News and operator sources for each claim: in the strike entries and tables above.</li>
+    </ul>
+
+    <h3 id="ai-use">Use of AI</h3>
+    <p>This investigation was carried out by Kristof Krebs with the assistance of Claude Opus 5.5, a large language model made by Anthropic. Claude was used for parts of the coding (the website, data-processing and chart scripts), data cleaning and analysis (deduplication, filtering the OpenStreetMap layer, the IODA analysis), searching for and summarising sources, and drafting text, including the disruption, recovery and migration tables. Every output was reviewed by the author and checked against the sources it cites. Evidence grades, assessments and conclusions are the author's responsibility. The svEye story summaries in the media section are generated by Semantic Visions' own system, not by Claude.</p>
+
+    <h3>Data and code</h3>
+    <p>Everything on this page is built from files in the <a data-gh="repo" href="#method">repository</a>: <a href="data/strikes.csv">strikes.csv</a>, <a href="data/strikes.geojson">strikes.geojson</a>, <a href="data/struck_outlines.geojson">struck_outlines.geojson</a>, <a href="data/dc_buildings.geojson">dc_buildings.geojson</a>, <a href="data/peeringdb_facilities.geojson">peeringdb_facilities.geojson</a>, <a href="data/telecom_sites.geojson">telecom_sites.geojson</a>, <a href="data/facility_specs.csv">facility_specs.csv</a> and the tables above. <code>scripts/build_data.py</code> rebuilds them from the working files; <code>scripts/pull_ioda.py</code> re-pulls the network data.</p>
+    <p>Corrections are welcome as GitHub issues. Please include a source.</p>
+  </section>
+</main>
+
+<footer class="wrap foot">
+  <p>Kristof Krebs. Built with the assistance of Claude Opus 5.5 (Anthropic), an AI model, for parts of the coding, data processing and analysis, source gathering and text drafting. All of it was reviewed by the author, who is responsible for the content. <a href="#ai-use">How AI was used</a>.</p>
+  <p>Last data build <span id="built"></span>. Map data © OpenStreetMap contributors; VersaTiles; imagery © Esri, Maxar, Earthstar Geographics. Network data © Georgia Tech Research Corporation (IODA); Cloudflare Radar (CC BY-NC 4.0). Media data: Semantic Visions svEye. Imagery: NASA FIRMS; contains modified Copernicus Sentinel data 2026.</p>
+</footer>
+
+<script src="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.js" integrity="sha384-5+cfbwT0iiub6VsQAdn6yz16nr6sDiQoHx6tm4O8OVYXHYOxcffFmCJBL0dgdvGp" crossorigin="anonymous"></script>
+<script src="assets/site.js"></script>
+</body>
+</html>

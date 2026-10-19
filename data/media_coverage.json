@@ -1,0 +1,1342 @@
+{
+"source": "Semantic Visions svEye export, 2026-10-19 19:00 UTC",
+"days": [
+"2026-10-01",
+"2026-10-02",
+"2026-10-03",
+"2026-10-04",
+"2026-10-05",
+"2026-10-06",
+"2026-10-07",
+"2026-10-08",
+"2026-10-09",
+"2026-10-10",
+"2026-10-11",
+"2026-10-12",
+"2026-10-13",
+"2026-10-14",
+"2026-10-15",
+"2026-10-16",
+"2026-10-17",
+"2026-10-18",
+"2026-10-19"
+],
+"companies": [
+{
+"name": "Yandex",
+"all": [
+0,
+16,
+1,
+0,
+0,
+6,
+7,
+225,
+159,
+44,
+427,
+411,
+148,
+40,
+11,
+7,
+0,
+0,
+4
+],
+"operational_risk": [
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+15,
+38,
+5,
+124,
+128,
+29,
+0,
+0,
+0,
+0,
+0,
+4
+]
+},
+{
+"name": "Sberbank",
+"all": [
+2,
+3,
+0,
+0,
+0,
+2,
+28,
+23,
+29,
+0,
+0,
+25,
+28,
+77,
+20,
+15,
+2,
+0,
+12
+],
+"operational_risk": [
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+10,
+0,
+6,
+0,
+0,
+0
+]
+},
+{
+"name": "VK",
+"all": [
+0,
+0,
+0,
+0,
+3,
+0,
+3,
+10,
+0,
+0,
+2,
+0,
+0,
+7,
+2,
+0,
+0,
+146,
+13
+],
+"operational_risk": [
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+21,
+5
+]
+}
+],
+"stories": [
+{
+"start": "2026-10-08T00:54Z",
+"entity": "Yandex",
+"title": "Yandex Pay service restoration begins following drone attacks on data centers",
+"text": "As of October 13, Yandex is gradually restoring the Yandex Pay service following drone attacks on data centers that disrupted Yandex Cloud and AI services. The suspension, which began on October 11, prevents users from making purchases or transferring funds, though the company maintains that all user money remains secure.",
+"documents": 2811,
+"sentiment": "negative",
+"category": "Geo-Political Issues"
+},
+{
+"start": "2026-10-08T03:26Z",
+"entity": "Yandex Cloud",
+"title": "Yandex Cloud traffic drops up to 90% following drone strikes",
+"text": "Yandex Cloud's network traffic dropped by up to 90% following drone strikes on its data centers, with levels remaining 86-90% below normal as of October 13. Automated activities have since shifted to alternative Russian hosting providers, including Radist and Selectel.",
+"documents": 587,
+"sentiment": "very negative",
+"category": "Geo-Political Issues"
+},
+{
+"start": "2026-10-13T14:05Z",
+"entity": "Sberbank",
+"title": "Ukrainian forces target Sberbank's largest data center in Saratov region",
+"text": "Ukrainian forces targeted Sberbank's largest data center in Balakovo, Saratov region, on October 14, 2026. Despite the strike causing damage and fires, Sberbank Deputy Chairman Alexander Vedikhin confirmed that all systems remain operational and no employees were harmed.",
+"documents": 359,
+"sentiment": "negative",
+"category": "Operational Risk"
+},
+{
+"start": "2026-10-18T01:28Z",
+"entity": "Vkontakte (VK)",
+"title": "Ukrainian drone strikes damage VK and Yandex data centers",
+"text": "Ukrainian drone strikes targeting Russian sites between October 8 and October 18 caused physical damage and service outages to VK and Yandex facilities. While VK confirmed its social network and digital services continue to operate normally, the attacks highlight vulnerabilities in Russia's domestic infrastructure.",
+"documents": 330,
+"sentiment": "negative",
+"category": "Geo-Political Issues"
+},
+{
+"start": "2026-10-09T14:32Z",
+"entity": "Yandex",
+"title": "Yandex service disruptions and traffic drops following data center attacks",
+"text": "Yandex search traffic dropped 99% and cloud traffic fell 90% following infrastructure damage that impacted services like Yandex Pay, Go, and Alice AI. To mitigate the widespread outages affecting multiple regions, Yandex is offering free cloud services until the end of October while coordinating data migration with Selectel, K2Cloud, and VK Cloud.",
+"documents": 327,
+"sentiment": "very negative",
+"category": "Business Expansion"
+},
+{
+"start": "2026-10-08T06:24Z",
+"entity": "Yandex",
+"title": "Yandex warns of Q4 revenue impact and dividend uncertainty",
+"text": "Yandex's Investor Relations confirmed on October 13 that recent service disruptions from data center drone strikes will negatively impact Q4 revenue. Additionally, the company stated there are no guarantees regarding future dividend payments following the infrastructure damage.",
+"documents": 255,
+"sentiment": "negative",
+"category": "Financial Risk"
+},
+{
+"start": "2026-10-09T08:52Z",
+"entity": "Yandex",
+"title": "Yandex enters short-term agreements with cloud competitors to migrate services",
+"text": "Yandex has entered into short-term agreements with VK Cloud, K2Cloud, and Selectel to migrate affected services and clients following drone attacks on its infrastructure. This move aims to mitigate the impact of data center outages and operational disruptions caused by the strikes.",
+"documents": 134,
+"sentiment": "negative",
+"category": "Operational Risk"
+},
+{
+"start": "2026-10-09T10:42Z",
+"entity": "Yandex",
+"title": "Infrastructure attacks disrupt over 80 Yandex services across Russia and CIS",
+"text": "Infrastructure attacks disrupted over 80 Yandex services, including Search, Maps, and Mail, affecting users across Russia and several CIS countries. Yandex Pay specifically remained non-functional for over 18 hours, preventing fund transfers and purchases despite the restoration of several core services.",
+"documents": 68,
+"sentiment": "negative",
+"category": "Cyber Risk"
+},
+{
+"start": "2026-10-08T07:00Z",
+"entity": "Yandex Cloud",
+"title": "Yandex shares experience volatility following Sasovo data center incidents",
+"text": "Yandex shares dropped by more than 3.2% on October 8 following reports of a fire and drone attack at the Sasovo data center. After the initial decline caused by service disruptions, the stock price experienced volatility and subsequently increased by an additional 4 percent.",
+"documents": 65,
+"sentiment": "neutral",
+"category": "Geo-Political Issues"
+},
+{
+"start": "2026-10-10T20:51Z",
+"entity": "Yandex",
+"title": "Yandex Expands Force Majeure Circumstances",
+"text": "Yandex expanded its list of force majeure circumstances to include military conflicts, terrorist acts involving drones and missiles, and the consequences of shelling and explosions. This policy update follows recent attacks on the company's infrastructure that caused service disruptions.",
+"documents": 60,
+"sentiment": "negative",
+"category": "Operational Risk"
+},
+{
+"start": "2026-10-08T15:34Z",
+"entity": "Vkontakte (VK)",
+"title": "Vkontakte service disruptions and connectivity drop in Russia",
+"text": "Connectivity for Vkontakte fell to 56% of normal levels during service disruptions on October 18-20, affecting news feeds, music, and account access. Thousands of complaints were recorded via Downdetector and Sboy following a technical failure and drone attack in several Russian regions.",
+"documents": 49,
+"sentiment": "negative",
+"category": "Geo-Political Issues"
+},
+{
+"start": "2026-10-07T08:32Z",
+"entity": "Sberbank",
+"title": "Central Bank Approves Sberbank for Cryptocurrency Exchange and Digital Depository Services",
+"text": "The Central Bank of Russia has approved Sberbank to provide cryptocurrency exchange services and registered it as a digital depository. Sberbank plans to roll out Bitcoin, Ether, and Tether trading via its Sberbank Online, SberInvestments, and SberBusiness platforms starting December 1, 2026.",
+"documents": 46,
+"sentiment": "positive",
+"category": "Business Expansion"
+},
+{
+"start": "2026-10-12T17:30Z",
+"entity": "Yandex",
+"title": "Scammers exploit Yandex service instability to launch phishing attacks",
+"text": "Following drone strikes on Yandex data centers, fraudsters are exploiting technical issues in Yandex Taxi, Yandex Food, and payment systems to target Russian companies. These phishing attacks use malicious QR codes and fake job offers to steal bank card data and sensitive personal information.",
+"documents": 44,
+"sentiment": "negative",
+"category": "Geo-Political Issues"
+},
+{
+"start": "2026-10-12T23:52Z",
+"entity": "Yandex",
+"title": "Yandex expands compensation and service access following disruptions",
+"text": "Yandex increased the Yandex Pay savings account rate to 20% for one week and extended free access to Yandex Cloud and Yandex 360 through October 2026. This follows the company's commitment to pay Yandex Go drivers in full despite withdrawal delays and the provision of other mitigation measures.",
+"documents": 38,
+"sentiment": "positive",
+"category": "Operational Risk"
+},
+{
+"start": "2026-10-12T06:19Z",
+"entity": "Yandex",
+"title": "Yandex automation traffic shifts to other Russian hosting providers",
+"text": "Following a near-total collapse in Yandex automated network traffic due to infrastructure damage, malicious automation and high-volume bot activity have migrated to other Russian providers like Radist and Selectel. While Yandex saw a 90% drop in WordPress plugin probing and a 93% drop in scanner-identified requests, the automation shifted rather than ceased.",
+"documents": 30,
+"sentiment": "negative",
+"category": "Operational Risk"
+},
+{
+"start": "2026-10-13T00:51Z",
+"entity": "Yandex",
+"title": "Yandex Pay partial restoration drives stock rise and free cloud services",
+"text": "Yandex shares rose nearly 5% as Yandex Pay partially restored transfers and payments following a data center attack. The company also announced that its cloud services will be provided free of charge to users until the end of October.",
+"documents": 29,
+"sentiment": "positive",
+"category": "Financial Opportunity"
+},
+{
+"start": "2026-10-12T23:12Z",
+"entity": "Yandex",
+"title": "Yandex Cloud and Search traffic collapse following drone strikes",
+"text": "Following drone strikes on its facilities, Yandex experienced a near-total network collapse on October 11, 2026, with Yandex Search traffic dropping 99% and Yandex.Cloud traffic dropping 90%. As of October 14, 2026, traffic levels had recovered to approximately 85% of normal levels after the platform had switched to emergency mode due to capacity shortages.",
+"documents": 25,
+"sentiment": "very negative",
+"category": "Operational Risk"
+},
+{
+"start": "2026-10-12T18:06Z",
+"entity": "Yandex Cloud",
+"title": "Yandex Cloud Warns of Increased Phishing Activity",
+"text": "Yandex Cloud issued warnings to users regarding a surge in fraudulent phishing attacks following recent service disruptions. Scammers are using pretexts such as data corruption, account blocks, and compensation offers to attempt to steal credentials, banking details, and API keys.",
+"documents": 23,
+"sentiment": "negative",
+"category": "Cyber Risk"
+},
+{
+"start": "2026-10-10T18:05Z",
+"entity": "Yandex Cloud",
+"title": "Yandex Cloud partners with competitors and updates force majeure terms",
+"text": "Yandex Cloud has updated its terms of use to include drone and missile attacks as force majeure events. This follows agreements reached with Selectel, K2Cloud, and VK Cloud on October 9 to facilitate rapid client resource migration under the CloudBro initiative to mitigate service disruptions.",
+"documents": 20,
+"sentiment": "neutral",
+"category": "Business Expansion"
+},
+{
+"start": "2026-10-12T19:14Z",
+"entity": "Sberbank",
+"title": "Sberbank initiates bankruptcy proceedings against Eurotrans and Pan Croissant",
+"text": "Sberbank has initiated bankruptcy procedures against Eurotrans and Pan Croissant following a default on ten bond issues totaling 3.3 billion rubles in overdue debt. This follows Eurotrans's October 12, 2026, petition regarding 27.1 billion rubles in unpaid bond coupons, which previously caused significant stock volatility on the Moscow Exchange.",
+"documents": 19,
+"sentiment": "neutral",
+"category": "Financial Risk"
+},
+{
+"start": "2026-10-13T09:39Z",
+"entity": "Yandex Cloud",
+"title": "Yandex Cloud waives fees and implements manual quota management",
+"text": "Yandex Cloud is providing free service usage to current clients across all Russian availability zones from October 8 to October 31, 2026, following recent data center attacks. The company will only bill for resources used up to October 7 and has transitioned to manual management of computing and disk quotas to prioritize critical services.",
+"documents": 18,
+"sentiment": "positive",
+"category": "Cyber Risk"
+},
+{
+"start": "2026-10-13T17:08Z",
+"entity": "Yandex",
+"title": "Yandex Faces Hardware Repair Challenges Due to Sanctions",
+"text": "Yandex faces significant difficulties in repairing damaged hardware due to international sanctions on advanced components like microchips and GPUs. Experts estimate that replacing the damaged equipment could take up to six months, potentially driving up hardware prices in the fourth quarter.",
+"documents": 17,
+"sentiment": "negative",
+"category": "Operational Risk"
+},
+{
+"start": "2026-10-12T08:03Z",
+"entity": "Yandex",
+"title": "Yandex Restores Yandex Pay Services Following Data Center Attacks",
+"text": "Yandex is gradually restoring Yandex Pay services, including card and SBP transfers, following disruptions caused by data center attacks. The company is currently rebuilding infrastructure to maintain data replication while managing system loads to ensure service stability.",
+"documents": 17,
+"sentiment": "negative",
+"category": "Cyber Risk"
+},
+{
+"start": "2026-10-08T11:14Z",
+"entity": "Sberbank",
+"title": "Sberbank reports 1.5 trillion ruble profit for first nine months of 2026",
+"text": "Sberbank reported a net profit of 1,501.2 billion rubles for the first nine months of 2026, an 18.2% increase, following CEO Herman Gref's earlier projection of record profits and a 50 percent dividend allocation plan based on first-half results.",
+"documents": 15,
+"sentiment": "very positive",
+"category": "Financial Opportunity"
+},
+{
+"start": "2026-10-12T07:47Z",
+"entity": "Sberbank",
+"title": "Sber Launches Cyber Fraud Combat Campaign",
+"text": "Sber launched a major campaign to combat cyber fraud, featuring promotional videos with Leonid Kanevsky and offering free security services through the SberBank Online app. The initiative includes a promotion for 1,000 winners to receive 5,000 SberСпасибо bonuses each, following the bank's success in protecting 7.4 million people and blocking over 11.4 million fraudulent calls in 2026.",
+"documents": 15,
+"sentiment": "positive",
+"category": "ESG Opportunity"
+},
+{
+"start": "2026-10-14T08:47Z",
+"entity": "Sberbank",
+"title": "Sberbank services disrupted by Balakovo data center attack",
+"text": "Sberbank's banking platforms, GigaChat AI, and Samokat food delivery faced disruptions following an attack on its Balakovo data center, causing mobile and payment system failures. While experts in Novosibirsk advised residents to maintain cash supplies, they noted that account and deposit safety remains unaffected.",
+"documents": 14,
+"sentiment": "negative",
+"category": "Operational Risk"
+},
+{
+"start": "2026-10-09T12:10Z",
+"entity": "Sberbank",
+"title": "Sber Announces Technology Award Winners at Moscow Startup Summit",
+"text": "Sber, in collaboration with the Moscow Government, announced the winners of the Technology Award during the second Moscow Startup Summit held at SberCity. The competition saw 2,021 applications from 76 regions across Russia, including a special prize for a digital platform for the Ingush language using the GigaAgent AI service.",
+"documents": 11,
+"sentiment": "positive",
+"category": "Innovation"
+},
+{
+"start": "2026-10-14T08:21Z",
+"entity": "Sberbank",
+"title": "Sberbank shares remain stable despite drone attack reports and market volatility",
+"text": "Sberbank's shares remained stable following reports of a Ukrainian drone attack on its data center, despite broader market volatility and a drop in the IMOEX index from 1445 to 1415. The bank previously confirmed that all systems and services are functioning normally.",
+"documents": 11,
+"sentiment": "neutral",
+"category": "Geo-Political Issues"
+},
+{
+"start": "2026-10-11T04:18Z",
+"entity": "Yandex Cloud",
+"title": "Yandex Cloud enters emergency mode following massive data center infrastructure damage",
+"text": "Yandex Cloud has entered an emergency operating mode due to infrastructure damage affecting its data centers, including the Galushkin supercomputer. Following massive attacks that left 78% of the network unresponsive, the company warned that remaining resource configurations are unstable and users should beware of phishing attempts exploiting the disruptions.",
+"documents": 11,
+"sentiment": "very negative",
+"category": "Cyber Risk"
+},
+{
+"start": "2026-10-10T12:04Z",
+"entity": "Yandex Cloud",
+"title": "Drone Attacks Disable Yandex Cloud Supercomputers and Nvidia A100 Accelerators",
+"text": "Drone attacks disabled two of Yandex Cloud's three supercomputers, specifically the Chervonenkis, Lyapunov, and Galushkin systems, which utilize approximately 2,700 Nvidia A100 accelerators for training YandexGPT. Western export controls and sanctions may now hinder the company's ability to replace these damaged advanced semiconductors and restore infrastructure.",
+"documents": 11,
+"sentiment": "very negative",
+"category": "Sanctions"
+},
+{
+"start": "2026-10-11T06:30Z",
+"entity": "Yandex",
+"title": "Analysts provide varied responses to Yandex infrastructure attacks",
+"text": "Following Yandex's stock downgrade and price drop due to infrastructure attacks, T-Investments and Finam revised targets downward while BKS Mir Investitsiy and Tsifra Broker maintained positive outlooks. Additionally, Euler analytical company has placed its target price under review amid concerns over client churn and recovery costs.",
+"documents": 10,
+"sentiment": "negative",
+"category": "Financial Risk"
+},
+{
+"start": "2026-10-14T14:04Z",
+"entity": "Yandex Cloud",
+"title": "Yandex Cloud Restores Most AI Services Following Disruptions",
+"text": "Yandex Cloud reported on October 14 that most AI services, including YandexGPT, Alice AI Pro, and various APIs like Realtime and Image Generation, have been restored. However, Workflows, Batch Inference API, and Dedicated Models remain unavailable, and users may face resource creation quota limitations.",
+"documents": 10,
+"sentiment": "neutral",
+"category": "Operational Risk"
+},
+{
+"start": "2026-10-14T11:02Z",
+"entity": "Vkontakte (VK)",
+"title": "Physical attack on Sberbank data center disrupts VK services",
+"text": "A physical attack on the Sberbank data center in Balakovo caused VK's network availability to drop to 56 percent, disrupting messaging, VK Music, and multimedia services across Russia. While services were reported to have returned to a working status, the incident significantly impacted VK's infrastructure availability.",
+"documents": 9,
+"sentiment": "negative",
+"category": "Operational Risk"
+},
+{
+"start": "2026-10-12T16:33Z",
+"entity": "Yandex",
+"title": "Yandex Bank Waives Late Payment Interest",
+"text": "Yandex Bank announced it will not charge interest on late credit or Super Split payments caused by the operational disruptions from the data center drone attacks. This measure aims to ensure that customers' credit histories remain unaffected by the service outages.",
+"documents": 9,
+"sentiment": "positive",
+"category": "Operational Risk"
+},
+{
+"start": "2026-10-11T07:01Z",
+"entity": "Yandex Cloud",
+"title": "Yandex Cloud Updates User Agreement to Include Drone Strikes as Force Majeure",
+"text": "Yandex updated its user agreement on October 10, 2026, to officially include drone and missile strikes as force majeure circumstances. This update follows a series of infrastructure attacks on the company's data centers in Russia.",
+"documents": 7,
+"sentiment": "neutral",
+"category": "Operational Risk"
+},
+{
+"start": "2026-10-11T17:20Z",
+"entity": "Yandex",
+"title": "Yandex migrates core systems to backup servers after data center attacks",
+"text": "Yandex is migrating its core systems to external backup servers to mitigate infrastructure damage and service disruptions following drone attacks on three of its data centers. This follows the successful restoration of most primary services like Alice, Search, and Maps, while Yandex Pay restoration remains in progress.",
+"documents": 7,
+"sentiment": "negative",
+"category": "Operational Risk"
+},
+{
+"start": "2026-10-08T12:28Z",
+"entity": "Yandex Cloud",
+"title": "Yandex Cloud Service Disruptions and Impact on Multiple Platforms",
+"text": "Between October 8 and 11, Yandex Cloud experienced significant service disruptions with connectivity dropping to 30% of normal levels. The outages affected 84 cloud services and impacted platforms such as Yandex Pay, Yandex Go, and Yandex Taxi for small and medium-sized businesses and government agencies.",
+"documents": 7,
+"sentiment": "very negative",
+"category": "Operational Risk"
+},
+{
+"start": "2026-10-16T12:39Z",
+"entity": "Sberbank",
+"title": "Sber Launches AI-Powered NEO Payment Terminals",
+"text": "Sber launched its proprietary NEO payment terminals featuring integrated artificial intelligence and a dedicated neural processing unit at Aeroflot's flagship sales office. The terminals, which were first showcased at the St. Petersburg International Economic Forum in 2026, utilize a ToF camera for 3D facial recognition and support multiple payment methods including SberPay NFC and biometrics across 22 service windows.",
+"documents": 6,
+"sentiment": "positive",
+"category": "Business Expansion"
+},
+{
+"start": "2026-10-19T12:34Z",
+"entity": "Sberbank",
+"title": "Sberbank's Lawsuit Against Euroclear Bank Postponed",
+"text": "The Arbitration Court of the Moscow District postponed the consideration of Euroclear Bank's cassation appeal until November 23, 2026. The case involves Sberbank's claim to recover approximately 105.4 million dollars in lost income from derivative financial instruments, including warrants from Citi and Natixis and notes linked to UBS AG and Societe Generale, which were blocked by sanctions.",
+"documents": 6,
+"sentiment": "neutral",
+"category": "Sanctions"
+},
+{
+"start": "2026-10-08T09:25Z",
+"entity": "Sberbank",
+"title": "Sberbank expands crypto-backed lending program to include Bitcoin and Ethereum",
+"text": "Sberbank plans to accept Bitcoin, Ethereum, and Tether (USDT) as collateral for lending following a pilot program with Intelion Data. This expansion follows the bank's regulatory approval to provide digital asset trading and custody services.",
+"documents": 6,
+"sentiment": "positive",
+"category": "Innovation"
+},
+{
+"start": "2026-10-11T07:55Z",
+"entity": "Yandex",
+"title": "Yandex Market Waives Fees and Updates Force Majeure Following Data Center Attacks",
+"text": "Yandex Market has waived late delivery fees, canceled storage fees for FBY model sellers through 2026, and excluded October 11 orders from its quality index to mitigate the impact of the Vladimir data center disruption. The company also updated its user agreement to include drone and missile attacks as force majeure events following seller demands for relief.",
+"documents": 6,
+"sentiment": "neutral",
+"category": "Operational Risk"
+},
+{
+"start": "2026-10-09T08:41Z",
+"entity": "Yandex Cloud",
+"title": "Yandex Cloud enters emergency mode following data center destruction",
+"text": "Yandex Cloud has transitioned its entire platform into an emergency operating mode due to unstable resource configurations following the destruction of multiple data centers. The company is assisting affected customers in migrating to Selectel, K2Cloud, or VK Cloud using the priority code word CloudBro and advising the implementation of external disaster recovery plans.",
+"documents": 6,
+"sentiment": "very negative",
+"category": "Operational Risk"
+},
+{
+"start": "2026-10-12T18:20Z",
+"entity": "Yandex",
+"title": "Yandex Advertising Services Face Disruptions",
+"text": "Technical issues following the data center attacks caused disruptions to Yandex Direct, leading advertisers like Pyatyy Kanal and Dom.ru to halt campaigns. Consequently, businesses shifted toward VK Advertising, which saw auction costs rise by 15-20%.",
+"documents": 6,
+"sentiment": "negative",
+"category": "Operational Risk"
+},
+{
+"start": "2026-10-18T18:25Z",
+"entity": "Vkontakte (VK)",
+"title": "VK network activity drops following drone attacks on data center",
+"text": "Following drone attacks on its data center, NetBlocks observed a 44 percent drop in VK network activity, causing significant technical issues like messaging and news feed failures. Despite these disruptions and thousands of user complaints, VK maintained that its services remained available to users.",
+"documents": 5,
+"sentiment": "negative",
+"category": "Geo-Political Issues"
+},
+{
+"start": "2026-10-13T07:12Z",
+"entity": "Sberbank",
+"title": "Sberbank Launches GigaPlatform AI Studio",
+"text": "Sberbank launched GigaPlatform AI Studio, a free service enabling private users and professionals to build AI agents without programming. The platform integrates GigaChat models, such as GigaChat 3.5 Reasoning, and features a visual constructor for connecting models, knowledge bases, and voice settings.",
+"documents": 5,
+"sentiment": "positive",
+"category": "Business Expansion"
+},
+{
+"start": "2026-10-08T07:39Z",
+"entity": "VK Tech",
+"title": "VK Tech and Yandex B2B Tech Discuss Potential Strategic Partnership or Merger",
+"text": "VK Tech is in negotiations with Yandex B2B Tech regarding a potential strategic partnership, joint venture, or merger to consolidate B2B, cloud, and AI assets. The proposed joint venture, potentially operating under the legal entity OOO BTB Tech, could involve a 50/50 share split and include assets such as VK Cloud, VK WorkSpace, and VK Data Platform. The consolidation is estimated to be completed by the first quarter of 2027, with a projected combined revenue of 37.9 billion rubles for the first half of 2026.",
+"documents": 4,
+"sentiment": "neutral",
+"category": "Ownership changes"
+},
+{
+"start": "2026-10-14T04:52Z",
+"entity": "Vkontakte (VK)",
+"title": "VK Challenges EU Sanctions in Court",
+"text": "Vkontakte (VK) filed a lawsuit with the General Court of the European Union to challenge and annul sanctions imposed against the company in July 2026. The legal case, registered under number T-664/26 on October 7, 2026, will involve an exchange of written positions starting with a response from the EU Council.",
+"documents": 4,
+"sentiment": "negative",
+"category": "Regulatory compliance Issues"
+},
+{
+"start": "2026-10-12T07:57Z",
+"entity": "Sberbank",
+"title": "Sberbank Blocks Millions of Fraudulent Calls and Malicious Apps",
+"text": "In 2026, Sberbank systems blocked over 11.4 million fraudulent calls, averaging 43,000 daily, and identified approximately 5 million malicious applications and viruses on client devices. The bank's efforts have protected 7.4 million Russians and returned over 3 billion rubles to clients of other banks. Most customer reports regarding suspicious numbers originate from Moscow, Saint Petersburg, Krasnodar Krai, Rostov Oblast, Sverdlovsk Oblast, and Nizhny Novgorod Oblast.",
+"documents": 4,
+"sentiment": "positive",
+"category": "Cyber Risk"
+},
+{
+"start": "2026-10-09T09:53Z",
+"entity": "Sberbank",
+"title": "Sberbank Pursues Legal Action Against Vektor Concrete Plant Assets",
+"text": "Sberbank is seeking a court order to prohibit registration actions regarding two land plots belonging to the Vektor concrete plant to prevent their sale. The bank, acting as a creditor with claims exceeding 305 million rubles, is attempting to recover funds related to an anti-corruption judgment.",
+"documents": 4,
+"sentiment": "neutral",
+"category": "Regulatory compliance Issues"
+},
+{
+"start": "2026-10-07T13:30Z",
+"entity": "Sberbank",
+"title": "Sberbank Establishes Direct Settlement Mechanism with Myanmar",
+"text": "Sberbank signed an agreement with the Ministry of Planning and Finance and the Ministry of Finance and Revenue of Myanmar to implement a direct settlement mechanism. Utilizing its Indian branch, the scheme enables payments in Indian rupees to connect Myanmar-based companies with markets in Russia, India, Belarus, and CIS countries for goods such as energy, fertilizers, and agricultural products.",
+"documents": 4,
+"sentiment": "positive",
+"category": "Business Expansion"
+},
+{
+"start": "2026-10-08T09:33Z",
+"entity": "Sberbank",
+"title": "Sberbank CEO Gref Predicts High Upside and Strong 2026 Dividends",
+"text": "Sberbank CEO Herman Gref predicted a fair value of at least 1000 rubles per share and strong 2026 dividends during the Nashtoe Budushcheye forum. This follows T-Investments' buy recommendation for the bank with a 388 ruble target price and an estimated 2026 dividend of 43.2 rubles.",
+"documents": 4,
+"sentiment": "positive",
+"category": "Financial Opportunity"
+},
+{
+"start": "2026-10-07T21:02Z",
+"entity": "Yandex",
+"title": "Yandex Launches Desktop Version of Yandex Documents",
+"text": "Yandex released a desktop version of Yandex Documents for Windows, macOS, and Linux, expanding its Yandex 360 ecosystem beyond web-only access. The software supports Russian operating systems like Astra Linux and Red OS, with full editing functionality tied to a Yandex 360 subscription.",
+"documents": 4,
+"sentiment": "positive",
+"category": "Innovation"
+},
+{
+"start": "2026-10-07T12:34Z",
+"entity": "Yandex",
+"title": "Yandex Introduces Mari Language AI Solutions",
+"text": "Yandex integrated Mari language support into Yandex Translate, including speech recognition and dialogue modes, through a collaboration with Mari State University and the Republic of Mari El. The project aims to use ethnographically accurate data to improve generative AI and includes the addition of over 27,000 Mari language articles to Ruwiki.",
+"documents": 4,
+"sentiment": "positive",
+"category": "Business Expansion"
+},
+{
+"start": "2026-10-14T08:55Z",
+"entity": "Yandex",
+"title": "Yandex group company fined by Moldovan Competition Council",
+"text": "The Moldovan Competition Council imposed a fine of approximately 39,420.33 euros on Yandex group company MLU B.V. for refusing to provide driver and bonus information during a taxi services market investigation. The fine, which was paid via YE Holding LTD in the United Arab Emirates, was upheld after the Central Appeals Chamber rejected Yandex's appeal in June 2026.",
+"documents": 4,
+"sentiment": "negative",
+"category": "Regulatory compliance Issues"
+},
+{
+"start": "2026-10-09T08:11Z",
+"entity": "Yandex",
+"title": "Yandex reports 19% revenue growth and 12.5 billion ruble share buyback",
+"text": "Yandex reported a 19% revenue growth to 759 billion rubles for the first half of 2026. The company also spent nearly 12.5 billion rubles on its share buyback program through the end of July.",
+"documents": 4,
+"sentiment": "positive",
+"category": "Financial Opportunity"
+},
+{
+"start": "2026-10-12T06:30Z",
+"entity": "Yandex",
+"title": "Yandex Faces Increased Costs and Higher Cloud Service Prices",
+"text": "Yandex expects increased operational costs and higher cloud service prices due to the need to procure replacement hardware through international channels following data center damage. Replacing equipment may take up to six months because of global shortages and rising costs for computing power and AI accelerators.",
+"documents": 4,
+"sentiment": "negative",
+"category": "Operational Risk"
+},
+{
+"start": "2026-10-07T07:43Z",
+"entity": "Vkontakte (VK)",
+"title": "VK Expands Digital Services and Government Collaborations",
+"text": "VK is developing exclusive state services including the Sferum school platform and government notification services for telemedicine and MFC appointments. The company also collaborated with the Gosuslugi portal team to implement the Digital ID project, which has been used by over 10 million people for verification purposes.",
+"documents": 3,
+"sentiment": "positive",
+"category": "Business Expansion"
+},
+{
+"start": "2026-10-09T08:50Z",
+"entity": "Sberbank",
+"title": "Sberbank to Manage Blocked Assets via Standard Measures",
+"text": "Sberbank will continue managing its blocked foreign assets using standard measures after the Central Bank of Russia approved the allocation of only 6 billion rubles, rejecting the majority of a 20 billion ruble application. Taras Skvortsov stated that the approved amount is too small to justify the creation of a special purpose vehicle.",
+"documents": 3,
+"sentiment": "neutral",
+"category": "Sanctions"
+},
+{
+"start": "2026-10-12T14:49Z",
+"entity": "Sberbank",
+"title": "Sber and Rostov Region Innovation Agency to develop AI decision support system",
+"text": "Sber and the Rostov Region Innovation Agency are partnering to develop an intelligent decision support system using AI and machine learning. Following a recent IT marathon for students, the project will focus on economic forecasting and scenario modeling for the Don region, with results expected next year.",
+"documents": 3,
+"sentiment": "positive",
+"category": "Business Expansion"
+},
+{
+"start": "2026-10-08T09:09Z",
+"entity": "Sberbank",
+"title": "Sberbank and Samolet Group Collaborate on Debt Restructuring Plan",
+"text": "Sberbank First Deputy Chairman Alexander Vedyaev announced that the bank is collaborating with Samolet Group and other creditors to develop an action plan to stabilize the developer's operations. Following the announcement, Samolet Group shares rose by approximately 5% on the Moscow Exchange.",
+"documents": 3,
+"sentiment": "neutral",
+"category": "Financial Opportunity"
+},
+{
+"start": "2026-10-09T08:10Z",
+"entity": "Sberbank",
+"title": "Sberbank Launches GigaChat 3.5 and Kandinsky Video 6.0",
+"text": "Sberbank launched new technological products, including the GigaChat 3.5 Reasoning AI model and the Kandinsky Video 6.0 generator. These advancements were highlighted alongside the bank's high client activity in September.",
+"documents": 3,
+"sentiment": "positive",
+"category": "Financial Opportunity"
+},
+{
+"start": "2026-10-14T08:55Z",
+"entity": "Yandex",
+"title": "Yandex fined in the Netherlands for data privacy violations",
+"text": "In May 2026, Dutch regulators fined a Yandex group company 100 million euros for illegally storing the personal location data of customers and drivers from Norway and Finland on servers located in the Russian Federation.",
+"documents": 3,
+"sentiment": "negative",
+"category": "Regulatory compliance Issues"
+},
+{
+"start": "2026-10-13T05:54Z",
+"entity": "Yandex",
+"title": "Drone attacks disrupt Yandex Go services and cause taxi fare spikes",
+"text": "Drone attacks caused technical issues preventing Yandex Go and Yandex Pro drivers from receiving payments, leading to significant service unavailability on October 11, 2026. This disruption caused taxi fares to spike nearly three times in Kazakhstan and reach up to 3,100 rubles in Saint Petersburg.",
+"documents": 3,
+"sentiment": "negative",
+"category": "Operational Risk"
+},
+{
+"start": "2026-10-09T06:09Z",
+"entity": "Yandex",
+"title": "Yandex Launches New Travel Media Advertising Network",
+"text": "Yandex launched a new travel media advertising network that integrates platforms like Yandex Travel, Level Travel, Kupibilet, Travelata, and Tutu. The network utilizes Yandex Retail Media technology to allow Yandex Direct advertisers to target users throughout the travel planning process.",
+"documents": 3,
+"sentiment": "positive",
+"category": "Business Expansion"
+},
+{
+"start": "2026-10-14T08:55Z",
+"entity": "Yandex",
+"title": "Yandex faces tax evasion and national security investigations in Moldova",
+"text": "Moldovan authorities are investigating Yandex over allegations of tax evasion and national security risks regarding its operations in Chișinău. The investigation focuses on the company routing approximately 7 million EUR in 2024 revenue through its Netherlands-registered holding MLU B.V. instead of paying domestic corporate taxes.",
+"documents": 3,
+"sentiment": "negative",
+"category": "Regulatory compliance Issues"
+},
+{
+"start": "2026-10-12T02:56Z",
+"entity": "Yandex Cloud",
+"title": "Yandex Cloud Faces Service Disruptions in Novosibirsk Region",
+"text": "Technical issues in the Novosibirsk region caused disruptions for third-party platforms including Magnit, Pyaterochka, Lenta, Dodo Pizza, and Vkusno i Tochka. While most key services have returned to normal, Yandex Pay and the Dom s Alisoy smart home system continue to experience intermittent functionality issues.",
+"documents": 3,
+"sentiment": "negative",
+"category": "Operational Risk"
+},
+{
+"start": "2026-10-13T13:45Z",
+"entity": "Vkontakte (VK)",
+"title": "VK Infrastructure Gains Investor Interest Following Competitor Attacks",
+"text": "Investors are shifting focus toward VK's infrastructure and VK-Cloud service following drone attacks on competitor Yandex's data centers. The market reaction is also influenced by Minister of Digital Development Maksut Shadaev's announcement regarding new measures by the Ministry of Digital Development and the Ministry of Defense to protect Russian data centers.",
+"documents": 2,
+"sentiment": "positive",
+"category": "Geo-Political Issues"
+},
+{
+"start": "2026-10-14T15:06Z",
+"entity": "Vkontakte (VK)",
+"title": "VK Files Lawsuit Against Apple Over App Store Removal",
+"text": "VK filed a lawsuit in the Moscow Arbitration Court against Apple to restore access to its applications following their removal from the App Store. VK is requesting a judicial penalty of approximately 58 million rubles for each day the court's decision remains unfulfilled.",
+"documents": 2,
+"sentiment": "negative",
+"category": "Regulatory compliance Issues"
+},
+{
+"start": "2026-10-13T13:45Z",
+"entity": "Vkontakte (VK)",
+"title": "VK's Stock Price Rises",
+"text": "VK shares rose 3.4% to 138.8 rubles per share recently, marking a 14% increase since October 8. Freedom Global maintains a target price of 345 rubles for the first quarter of 2027 and projects 2026 revenue of 170 billion rubles with an EBITDA of 24 billion rubles.",
+"documents": 2,
+"sentiment": "positive",
+"category": "Financial Opportunity"
+},
+{
+"start": "2026-10-13T18:01Z",
+"entity": "Sberbank",
+"title": "Sberbank Expands Office Presence in Donetsk People's Republic",
+"text": "Sberbank opened two new offices in Makiivka and Kirovskoye to increase banking accessibility in the Donetsk People's Republic. This expansion brings the bank's total full-format offices in the Donetsk, Zaporozhye, and Kherson regions to 34.",
+"documents": 2,
+"sentiment": "positive",
+"category": "Business Expansion"
+},
+{
+"start": "2026-10-09T02:56Z",
+"entity": "Sberbank",
+"title": "Sberbank Estimated Annual Dividend Reaches 44 Rubles Per Share",
+"text": "Sberbank's estimated annual dividend could reach approximately 44 rubles per share, representing a 50 percent payout ratio of the group's IFRS profit. This follows the company's reported 2025 IFRS net profit of 1.7 trillion rubles, which previously saw 850 billion rubles directed toward dividends.",
+"documents": 2,
+"sentiment": "positive",
+"category": "Financial Opportunity"
+},
+{
+"start": "2026-10-13T10:00Z",
+"entity": "Sberbank",
+"title": "Sberbank Promotes Unified Rules for Generative Software Development",
+"text": "At the Digital Solutions Forum, Sberbank's Kirill Menshov advocated for establishing unified rules and a common methodological base for trusted generative software development. The initiative aims to ensure technological sovereignty and improve tool compatibility and security within the IT industry.",
+"documents": 2,
+"sentiment": "neutral",
+"category": "Innovation"
+},
+{
+"start": "2026-10-19T08:29Z",
+"entity": "Sberbank",
+"title": "Sberbank Files Debt Claim in Andrey Marchenko Bankruptcy",
+"text": "Sberbank filed an application with the Arbitration Court of the Krasnodar Krai to include a debt exceeding 84 million rubles in the register of creditors' claims against businessman Andrey Marchenko. The application pertains to the bankruptcy and debt restructuring proceedings initiated against Marchenko in August 2025.",
+"documents": 2,
+"sentiment": "neutral",
+"category": "Financial Risk"
+},
+{
+"start": "2026-10-08T05:34Z",
+"entity": "Sberbank",
+"title": "Sberbank Hosts National Council for Corporate Volunteering Meeting",
+"text": "Sberbank's Omsk branch hosted the first meeting of the Omsk branch of the National Council for Corporate Volunteering (NCV). The event involved government authorities and various companies to discuss corporate volunteering initiatives following an agreement signed in Krasnoyarsk.",
+"documents": 2,
+"sentiment": "neutral",
+"category": "ESG Opportunity"
+},
+{
+"start": "2026-10-15T16:16Z",
+"entity": "Sberbank",
+"title": "Sber Develops AI Algorithm for Early Cancer Detection",
+"text": "Sber's AI teams developed the Can-SAVE algorithm, which analyzes digital medical records to predict malignant tumor development. During testing across five regions of the Russian Federation involving two million citizens, the system demonstrated a 91% increase in early detection effectiveness compared to standard methods and outperformed 17 other domestic and foreign AI systems.",
+"documents": 2,
+"sentiment": "positive",
+"category": "Innovation"
+},
+{
+"start": "2026-10-11T11:02Z",
+"entity": "Yandex Cloud",
+"title": "Yandex Cloud Revenue Increases",
+"text": "Yandex Cloud revenue reached 16.7 billion rubles during the first half of 2026, marking a 30% increase. The company's customer base grew to 64,000 users, with 37% of large-scale clients utilizing AI services.",
+"documents": 2,
+"sentiment": "positive",
+"category": "Financial Opportunity"
+},
+{
+"start": "2026-10-12T17:59Z",
+"entity": "Yandex",
+"title": "Dutch Data Protection Authority Fines Yango Parent MLU B.V. 100 Million EUR",
+"text": "The Dutch Data Protection Authority fined MLU B.V., the parent of Yango, 100 million EUR in April 2026 for transferring user data to Yandex LLC and Yandex.Taxi LLC in Russia. The penalty specifically addressed risks regarding the handling and storage of Georgian user data.",
+"documents": 2,
+"sentiment": "very negative",
+"category": "Regulatory compliance Issues"
+},
+{
+"start": "2026-10-12T12:41Z",
+"entity": "Yandex Cloud",
+"title": "Yandex Cloud Traffic Drops Significantly",
+"text": "Yandex Cloud's network traffic dropped by 82% on October 11, 2026, according to Cloudflare Radar data. This decline followed a broader collapse in Yandex's main network traffic, which fell by 94% on the same day.",
+"documents": 2,
+"sentiment": "negative",
+"category": "Operational Risk"
+},
+{
+"start": "2026-10-08T14:13Z",
+"entity": "Yandex",
+"title": "Yandex Disrupts Transport Payment Services in Rostov Region",
+"text": "Infrastructure failures linked to Yandex caused disruptions to transport payment services in the Rostov Region, affecting the Prostor mobile application and QR code payments. The outage prevented users from topping up transport cards and activating electronic social travel passes.",
+"documents": 2,
+"sentiment": "negative",
+"category": "Operational Risk"
+},
+{
+"start": "2026-10-12T17:36Z",
+"entity": "Yandex",
+"title": "Yandex Technical Failures Affect Tax Receipt Generation",
+"text": "Technical infrastructure restrictions at Yandex may prevent users from receiving automated cash receipts for purchases. The Federal Tax Service advised self-employed individuals using Yandex platforms to delay manual receipt generation until November 1, 2026, to avoid duplication.",
+"documents": 2,
+"sentiment": "negative",
+"category": "Regulatory compliance Issues"
+},
+{
+"start": "2026-10-13T00:54Z",
+"entity": "Yandex",
+"title": "Yandex image search feature gains viral popularity",
+"text": "Yandex's image search feature has gained significant popularity and viral attention in tech forums and on social media due to its accuracy in finding original images. Users have noted its performance in driving digital trends across Russia and the CIS countries.",
+"documents": 2,
+"sentiment": "positive",
+"category": "Innovation"
+},
+{
+"start": "2026-10-08T16:59Z",
+"entity": "Yandex",
+"title": "Nebius and Palantir Announce Strategic Partnership",
+"text": "Nebius, a company formed from Yandex's former parent structure, announced a strategic partnership with Palantir to provide computing infrastructure and cloud capabilities to Palantir's commercial clients. The agreement, led by Palantir CEO Alex Karp, aims to accelerate the deployment of modular data centers.",
+"documents": 2,
+"sentiment": "neutral",
+"category": "Innovation"
+},
+{
+"start": "2026-10-08T09:40Z",
+"entity": "Yandex",
+"title": "Potential Merger Between Yandex B2B Tech and VK Tech",
+"text": "Yandex B2B Tech is being discussed for a potential merger with VK Tech to create a joint product portfolio for government customers. If completed by the first quarter of 2027, the combined entity could include Yandex Cloud and AI Studio, with projected revenues of 37.9 billion rubles for the first half of 2026.",
+"documents": 2,
+"sentiment": "neutral",
+"category": "Innovation"
+},
+{
+"start": "2026-10-12T01:56Z",
+"entity": "Yandex",
+"title": "Yandex Go Experiences Localized Service Disruptions",
+"text": "Yandex Go experienced localized service disruptions in Chelyabinsk, Moscow, and Saint Petersburg on the morning of October 11, preventing users from booking rides. The company confirmed that the functionality was fully restored shortly after the incident.",
+"documents": 2,
+"sentiment": "negative",
+"category": "Operational Risk"
+},
+{
+"start": "2026-10-13T07:50Z",
+"entity": "Yandex",
+"title": "Yandex Search Traffic to Clerk Recovers",
+"text": "Yandex search traffic to the Clerk website recovered to approximately 159,000 daily visits on October 12, 2026, following a period of decline in late September. This recovery occurred after the Clerk IT team resolved a site-side technical error and Yandex re-indexed the pages.",
+"documents": 2,
+"sentiment": "positive",
+"category": "Operational Risk"
+},
+{
+"start": "2026-10-13T16:01Z",
+"entity": "Yandex",
+"title": "Yandex Smart Home Services Disrupted",
+"text": "Yandex reported technical malfunctions in its smart home ecosystem, affecting devices like temperature sensors, smart curtains, and baby monitors, starting October 9, 2026. Most functions, including lighting and AI cameras, were restored by October 13, though some cloud-based sensor updates remain delayed.",
+"documents": 2,
+"sentiment": "negative",
+"category": "Quality Issues"
+},
+{
+"start": "2026-10-12T17:46Z",
+"entity": "Yandex",
+"title": "Yandex Withdraws Lawsuit Against Jaguar Land Rover",
+"text": "Yandex withdrew its lawsuit against the British automaker Jaguar Land Rover from the Intellectual Property Court. The legal action had originally sought to remove obstacles to registering the Yandex Rover and Rover brands in Russia.",
+"documents": 2,
+"sentiment": "neutral",
+"category": "Regulatory compliance Issues"
+},
+{
+"start": "2026-10-08T14:32Z",
+"entity": "VK Tech",
+"title": "VK Tech Reports Revenue Growth",
+"text": "VK Tech reported revenue of 9 billion rubles for the first half of 2026. This represents a 35.3% increase compared to the same period in the previous year.",
+"documents": 1,
+"sentiment": "positive",
+"category": "Financial Opportunity"
+},
+{
+"start": "2026-10-19T12:03Z",
+"entity": "Vkontakte (VK)",
+"title": "VK Faces Technical Issues and Connectivity Problems Across Russia",
+"text": "VK faced technical issues including loading failures, connection timeouts, and messenger delays across Moscow, Saint Petersburg, and the Volgograd region. On October 18, Downdetector reported that 30% of complaints in Volgograd were related to the site's unavailability, though the service appeared relatively stable by October 19.",
+"documents": 1,
+"sentiment": "negative",
+"category": "Operational Risk"
+},
+{
+"start": "2026-10-07T20:17Z",
+"entity": "Sberbank",
+"title": "Vladimir Putin Briefed on Sberbank AI Innovations",
+"text": "President Vladimir Putin received a 1.5-hour briefing at Sberbank headquarters regarding artificial intelligence development. Sberbank demonstrated its innovations, including its first AI-powered robot capable of safe human interaction, dialogue, and voice command recognition.",
+"documents": 1,
+"sentiment": "positive",
+"category": "Innovation"
+},
+{
+"start": "2026-10-08T05:36Z",
+"entity": "Sberbank",
+"title": "Sberbank Center for Macroeconomic Research Releases GenAI Economy Study",
+"text": "The Sberbank Center for Macroeconomic Research (CMI) released a study estimating that generative AI implementation could add 2.8% to 9.8% to Russia's GDP by 2030. The study, led by Alexander Isakov, bases these projections on a projected 2025 nominal GDP of 214.3 trillion rubles.",
+"documents": 1,
+"sentiment": "neutral",
+"category": "Innovation"
+},
+{
+"start": "2026-10-08T09:25Z",
+"entity": "Sberbank",
+"title": "Sberbank CFO Expresses Skepticism Over Digital Ruble Demand",
+"text": "Sberbank CFO Taras Skvortsov expressed skepticism regarding the organic demand for the digital ruble (CBDC). He stated that there is currently little interest in the instrument from both retail and corporate clients.",
+"documents": 1,
+"sentiment": "negative",
+"category": "Innovation"
+},
+{
+"start": "2026-10-09T18:04Z",
+"entity": "Sberbank",
+"title": "Legal Analysis of Fraud Reporting Requirements for Sberbank",
+"text": "A legal analysis examines the procedural requirements for reporting fraud involving Sberbank under the Criminal Code of the Russian Federation. The discussion focuses on whether reporting basic fraud allows for public prosecution and the necessity of a formal statement from Sberbank to establish the scale of loss for law enforcement investigations.",
+"documents": 1,
+"sentiment": "neutral",
+"category": "Regulatory compliance Issues"
+},
+{
+"start": "2026-10-14T08:23Z",
+"entity": "Sberbank",
+"title": "Sberbank Showcases AI and Automation Technologies",
+"text": "At a conference in Rostov-on-Don, Sberbank experts presented digital platforms and AI technologies designed to automate business operations and manage big data. The showcased tools include AI-based speech analytics and specialized solutions for construction management and sales funnel management.",
+"documents": 1,
+"sentiment": "positive",
+"category": "Innovation"
+},
+{
+"start": "2026-10-07T09:48Z",
+"entity": "Sberbank Rossii",
+"title": "Sberbank Rossii Signs Agreement to Support Agricultural Producers in Nizhny Novgorod",
+"text": "The Volga-Vyatka Bank of Sberbank of Russia signed an agreement with the Ministry of Agriculture and Food Resources and the Ministry of Finance of the Nizhny Novgorod region to support agricultural producers affected by the 2010 drought. The agreement extends interest rate subsidies for up to three years and follows Sberbank's previous actions of extending loan agreements and modifying repayment schedules for approximately 1 billion rubles.",
+"documents": 1,
+"sentiment": "neutral",
+"category": "Geo-Political Issues"
+},
+{
+"start": "2026-10-07T09:48Z",
+"entity": "Sberbank",
+"title": "Volgo-Vyatsky Bank of Sberbank Supports Agricultural Producers in Nizhny Novgorod",
+"text": "Volgo-Vyatsky Bank of Sberbank signed an agreement with the Ministry of Agriculture and Food Resources and the Ministry of Finance of the Nizhny Novgorod region to support drought-affected agricultural producers. The agreement allows enterprises to extend interest rate subsidies for up to three years, following Sberbank's provision of 1.1 billion rubles in loans to over 100 enterprises.",
+"documents": 1,
+"sentiment": "neutral",
+"category": "Geo-Political Issues"
+},
+{
+"start": "2026-10-15T09:59Z",
+"entity": "Sberbank",
+"title": "Rostelecom Proposes Doomsday Data Center Following Strikes on Sberbank and Yandex",
+"text": "Valery Ermakov of Rostelecom proposed creating a specialized backup platform to ensure emergency service restoration following strikes on Sberbank and Yandex data centers. The initiative aims to address vulnerabilities in centralized IT infrastructure to aerial threats through distributed architectures.",
+"documents": 1,
+"sentiment": "neutral",
+"category": "Operational Risk"
+},
+{
+"start": "2026-10-09T11:57Z",
+"entity": "Sberbank",
+"title": "Sber and Sber2B Report Increase in Geopey Donation Volumes",
+"text": "Sber and its subsidiary Sber2B reported a sixfold increase in voluntary donations to temples and monasteries via the Geopey digital service in the third quarter of 2026 compared to the second quarter. The service, co-developed with the Russian Orthodox Church, currently operates in 173 temples across Russia and supports donations via QR codes.",
+"documents": 1,
+"sentiment": "positive",
+"category": "Business Expansion"
+},
+{
+"start": "2026-10-09T08:38Z",
+"entity": "Sberbank",
+"title": "Sberbank's Retail Customer Funds Reach 34.7 Trillion Rubles",
+"text": "The volume of retail customer funds at Sberbank reached 34.7 trillion rubles as of the reporting period. This figure was part of the bank's financial results for the first nine months of 2026.",
+"documents": 1,
+"sentiment": "positive",
+"category": "Financial Opportunity"
+},
+{
+"start": "2026-10-14T07:39Z",
+"entity": "Sberbank",
+"title": "Sberbank Reports 2025 Fiscal Year Financial Results",
+"text": "Sberbank reported a record net profit of 1.705 trillion rubles for the 2025 fiscal year, a 7.9% increase over 2024. While net interest income rose 18.5% to 3.56 trillion rubles, the Return on Equity decreased to 22.7% from 23.4% in the previous year.",
+"documents": 1,
+"sentiment": "positive",
+"category": "Financial Opportunity"
+},
+{
+"start": "2026-10-09T08:38Z",
+"entity": "Sberbank",
+"title": "Sberbank's Credit Risk Outlook for Marketplaces",
+"text": "Sberbank does not plan to create additional loan loss provisions for marketplaces as financial indicators recover and restructuring requests decline. While the bank previously formed reserves for Wildberries debt during the summer, no such measures were taken for Ozon.",
+"documents": 1,
+"sentiment": "neutral",
+"category": "Financial Opportunity"
+},
+{
+"start": "2026-10-07T12:38Z",
+"entity": "Sberbank",
+"title": "Sber Releases AI Limitations Advertising Campaign",
+"text": "Sber released a new advertising video for Teacher's Day highlighting the limitations of artificial intelligence compared to human educators. The campaign demonstrates that while AI can solve equations and create images, it cannot replicate human empathy, support, and emotional connection.",
+"documents": 1,
+"sentiment": "neutral",
+"category": "Innovation"
+},
+{
+"start": "2026-10-14T12:53Z",
+"entity": "Sberbank",
+"title": "Herman Gref Maintains Long-term Sberbank Shareholding",
+"text": "During the SberInvest conference on October 8, Sberbank CEO Herman Gref confirmed he has held his shares for approximately twenty years and has no plans to sell them. His investment of 114 million rubles has resulted in a total profit of approximately 315 million rubles.",
+"documents": 1,
+"sentiment": "positive",
+"category": "Financial Opportunity"
+},
+{
+"start": "2026-10-13T17:13Z",
+"entity": "Sberbank",
+"title": "Sberbank Researchers Develop Optical Interferometer Tuning Method",
+"text": "Researchers from the Sberbank Quantum Technologies Center and Lomonosov Moscow State University developed a new method for tuning multi-channel optical interferometers using a perturbative expansion algorithm. This advancement improves the stability and energy efficiency of programmable photonic processors used in machine learning and quantum information tasks.",
+"documents": 1,
+"sentiment": "positive",
+"category": "Innovation"
+},
+{
+"start": "2026-10-07T09:32Z",
+"entity": "Sberbank",
+"title": "Herman Gref Discusses AI Implementation Stages",
+"text": "Sberbank CEO Herman Gref described the three stages of implementing artificial intelligence into services as strem, norm, and wow during the Digital Solutions forum. He noted that the process often requires moving through all three stages to reach the wow stage.",
+"documents": 1,
+"sentiment": "neutral",
+"category": "Innovation"
+},
+{
+"start": "2026-10-08T06:14Z",
+"entity": "Sberbank",
+"title": "Sberbank Invests in Russian Microelectronics Development",
+"text": "Sberbank is participating in the formation of the United Microelectronics Company (OMK) to develop Russia's microelectronics industry. The bank has acquired shares in Element Group from AFK Sistema and is scheduled to contribute 41 billion rubles in 2027 toward a 1.101 trillion ruble project to build three specialized semiconductor facilities.",
+"documents": 1,
+"sentiment": "positive",
+"category": "Ownership changes"
+},
+{
+"start": "2026-10-08T09:33Z",
+"entity": "Sberbank",
+"title": "T-Investments Maintains Buy Recommendation for Sberbank",
+"text": "T-Investments maintains a 'buy' recommendation for Sberbank with a target price of 388 rubles.",
+"documents": 1,
+"sentiment": "positive",
+"category": "Financial Opportunity"
+},
+{
+"start": "2026-10-08T12:14Z",
+"entity": "Sberbank",
+"title": "Sberbank Hosts TechCommunity Fest 2026",
+"text": "Sber held its annual TechCommunity Fest 2026 in Moscow, focusing on AI-driven software development transformation and the bank's technological future through the Sber 2029 foresight dialogue. The event featured over 40 speakers and highlighted the transition of the AI-Disrupt PDLC approach and proprietary products like GigaCode, GitVerse, and GigaStudio toward external market standards.",
+"documents": 1,
+"sentiment": "positive",
+"category": "Business Expansion"
+},
+{
+"start": "2026-10-12T07:56Z",
+"entity": "Sberbank",
+"title": "Sber Hosts AI Design Session for Ryazan Public Administration",
+"text": "Sber organized a design session in Ryazan focused on implementing artificial intelligence to transform regional government processes. The session, opened by Governor Pavel Malkov and Sber Manager Irina Amirova, resulted in an AI project portfolio for the Ryazan region to automate routine tasks and increase productivity.",
+"documents": 1,
+"sentiment": "positive",
+"category": "Innovation"
+},
+{
+"start": "2026-10-14T16:20Z",
+"entity": "Yandex",
+"title": "Yandex Restores Services in Armenia Following Data Center Outages",
+"text": "Yandex Armenia is working to restore services in Yerevan following disruptions to Yandex Go, Maps, and the Yandex browser that began on October 11. The outages were linked to the distribution of computational resources after damage to Russian data centers impacted service stability.",
+"documents": 1,
+"sentiment": "negative",
+"category": "Operational Risk"
+},
+{
+"start": "2026-10-07T06:17Z",
+"entity": "Yandex",
+"title": "Yandex Scales Robotic Delivery Operations",
+"text": "Yandex reached a milestone of 10,000 robotic deliveries per day in September 2026, a tenfold increase from August 2025. The company plans to connect at least 400 darkstores to the robot network by the end of 2026 and aims to produce 20,000 next-generation robots by the end of 2027.",
+"documents": 1,
+"sentiment": "positive",
+"category": "Financial Opportunity"
+},
+{
+"start": "2026-10-08T05:05Z",
+"entity": "Yandex Cloud",
+"title": "Yandex Service Outage Occurs",
+"text": "A broader Yandex service outage affecting both the app and web versions occurred on October 8 between 04:50 MSK and 05:51 MSK. The outage lasted for 1 hour and 1 minute.",
+"documents": 1,
+"sentiment": "negative",
+"category": "Operational Risk"
+},
+{
+"start": "2026-10-14T08:25Z",
+"entity": "Yandex",
+"title": "Yango Expands E-scooter Operations in Tbilisi",
+"text": "Yandex's international brand Yango is expanding its presence in Tbilisi, Georgia, through the operation of approximately 3,000 e-scooters. The company maintains that user data for these regional operations is stored on servers located in Germany.",
+"documents": 1,
+"sentiment": "positive",
+"category": "Business Expansion"
+},
+{
+"start": "2026-10-09T15:12Z",
+"entity": "Yandex",
+"title": "Nebius Group Reports Strong Second Quarter Revenue Growth",
+"text": "Nebius Group, formerly Yandex, reported a 454 percent year-over-year revenue increase to 582.3 million dollars for the second quarter. This growth was primarily driven by high demand for AI cloud services, despite significant projected capital investments of 20 to 25 billion dollars.",
+"documents": 1,
+"sentiment": "positive",
+"category": "Financial Opportunity"
+},
+{
+"start": "2026-10-16T10:39Z",
+"entity": "Yandex",
+"title": "Data Center Fires Disrupt Yandex Services in Russia",
+"text": "A series of fires at data centers in Russia caused service disruptions for Yandex, including a fire in Sasovo on October 8, two fires in Kaluga on October 9, and a fire in Vladimir on October 11. These incidents impacted Yandex Cloud services across all availability zones in Russia.",
+"documents": 1,
+"sentiment": "negative",
+"category": "Operational Risk"
+},
+{
+"start": "2026-10-13T05:41Z",
+"entity": "Yandex",
+"title": "Yandex Advertising Inventory at Risk Due to Character.ai Bankruptcy",
+"text": "Yandex's advertising inventory as an authorized reseller for Character Technologies Inc. is at risk following Character.ai's Chapter 11 bankruptcy filing in the US. If no buyer emerges by late November 2026, the platform may be wound down, removing the inventory from Yandex.",
+"documents": 1,
+"sentiment": "negative",
+"category": "Financial Risk"
+},
+{
+"start": "2026-10-14T09:08Z",
+"entity": "Yandex",
+"title": "Kazakhstan Investigates Yandex Data Transfer Following Service Disruption",
+"text": "Following a service disruption of Yandex Go in Kazakhstan on October 11, Deputy Lazzat Zhylkybayeva called for an investigation into the company's cross-border transfer of personal data. The inquiry seeks to clarify the legality of processing sensitive user information outside of Kazakhstan during international technical failures.",
+"documents": 1,
+"sentiment": "negative",
+"category": "Geo-Political Issues"
+},
+{
+"start": "2026-10-14T07:28Z",
+"entity": "Yandex",
+"title": "Yandex Service Disruptions Impact Armenia",
+"text": "Service disruptions in Armenia, following drone strikes on Russian data centers, impacted approximately 1.1 million people by affecting taxi bookings and payment processing. The incident has raised national security concerns regarding the privacy of Armenian citizens' data and potential access by Russian authorities.",
+"documents": 1,
+"sentiment": "negative",
+"category": "Geo-Political Issues"
+},
+{
+"start": "2026-10-08T17:09Z",
+"entity": "Yandex",
+"title": "Qrator Labs Failure Coincides with Yandex Service Disruptions",
+"text": "A failure at the infrastructure protection provider Qrator Labs coincided with the Yandex data center attack, causing access issues for various Russian media outlets including RBC and RIA Novosti. The combined disruptions impacted the ability of users to load several major Russian websites and communication platforms.",
+"documents": 1,
+"sentiment": "negative",
+"category": "Cyber Risk"
+},
+{
+"start": "2026-10-08T04:00Z",
+"entity": "Yandex",
+"title": "Yandex faces component shortages for smart speakers",
+"text": "Yandex is experiencing difficulties procuring electronic components like microchips and processors for its smart speakers due to logistics disruptions and rising costs. Component prices have significantly increased, with a 30% rise this year following a doubling of prices last year, potentially leading to retail shortages.",
+"documents": 1,
+"sentiment": "negative",
+"category": "Financial Risk"
+},
+{
+"start": "2026-10-15T06:05Z",
+"entity": "Yandex",
+"title": "Yandex Taxi Services Disrupted in Perm Following UAV Attack",
+"text": "A UAV attack on a Yandex data center in Perm on October 10 caused technical issues that prevented 30-40% of taxi drivers from accepting orders. This disruption led to a driver shortage and a 30-50% increase in average taxi prices in the area.",
+"documents": 1,
+"sentiment": "negative",
+"category": "Operational Risk"
+},
+{
+"start": "2026-10-09T15:17Z",
+"entity": "Yandex Cloud",
+"title": "CIAN Experiences Service Disruptions Due to Yandex Cloud Outage",
+"text": "The real estate platform CIAN confirmed issues with its website and mobile application following an infrastructure outage at a Yandex data center in Sasovo. The incident was caused by a fire following a drone attack, which rendered several Yandex Cloud services unavailable.",
+"documents": 1,
+"sentiment": "negative",
+"category": "Geo-Political Issues"
+},
+{
+"start": "2026-10-11T07:32Z",
+"entity": "Yandex",
+"title": "Yandex Experiences Service Disruptions in Uzbekistan",
+"text": "Yandex services including Yandex Food, Express 24, and Yandex Metrica experienced technical issues in Uzbekistan. Users also reported an unexpected increase in Yandex Go trip costs despite low traffic levels during a holiday.",
+"documents": 1,
+"sentiment": "negative",
+"category": "Financial Risk"
+},
+{
+"start": "2026-10-11T23:01Z",
+"entity": "Yandex",
+"title": "Yandex's AI Assistant Alice Linked to Kremlin Narratives",
+"text": "An EU-financed audit conducted by researcher Ihor Samokhodskyi found that Yandex's AI assistant, Alice, supported Kremlin narratives in 86% of its Russian responses.",
+"documents": 1,
+"sentiment": "negative",
+"category": "Regulatory compliance Issues"
+},
+{
+"start": "2026-10-09T21:01Z",
+"entity": "Yandex",
+"title": "Ukrainian Forces Target Yandex Data Center in Sasovo",
+"text": "Ukrainian forces targeted a Yandex data center in Sasovo, Russia, to disrupt digital infrastructure used for both civilian and military purposes. A spokesperson for the Ukrainian Volunteer Army stated the strike aims to disrupt Russian military logistics and command capabilities.",
+"documents": 1,
+"sentiment": "negative",
+"category": "Geo-Political Issues"
+},
+{
+"start": "2026-10-11T07:22Z",
+"entity": "Yandex",
+"title": "Dodo Pizza Experiences Service Disruptions Following Yandex Outage",
+"text": "The Dodo Pizza network experienced significant service disruptions, including unavailability of its website and mobile application, following a technical outage at Yandex. The issues were primarily concentrated in Novosibirsk, though Moscow remained functional.",
+"documents": 1,
+"sentiment": "negative",
+"category": "Operational Risk"
+},
+{
+"start": "2026-10-12T23:26Z",
+"entity": "Yandex",
+"title": "Yandex Cloud Outage Impacts Beverage Supply Chain",
+"text": "The disruption of Yandex cloud infrastructure through UTrace caused paralyzed logistics and broken electronic document workflows for several beverage producers, including PepsiCo Holdings, Baltika, and Bochkaryov Breweries. These companies were forced to switch to manual data entry to maintain operations with the Honest Sign system.",
+"documents": 1,
+"sentiment": "negative",
+"category": "Operational Risk"
+},
+{
+"start": "2026-10-13T08:02Z",
+"entity": "Yandex",
+"title": "Yandex develops YandexGPT large language model",
+"text": "Yandex has developed YandexGPT, a large language model optimized for the natural Russian language to assist with text generation, document summarization, and email drafting. The tool is designed as a productivity accelerator for academic, office, and everyday tasks.",
+"documents": 1,
+"sentiment": "positive",
+"category": "Innovation"
+},
+{
+"start": "2026-10-08T22:04Z",
+"entity": "Yandex",
+"title": "Yandex Advances to BLAST SLAM VIII Playoffs Finals",
+"text": "Yandex advanced to the upper bracket finals of the BLAST SLAM VIII Playoffs on October 9 after a 2-1 victory against PARIVISION. This win guarantees the team a top 3 finish and at least US$135,000 in prize money. Key players included Alimzhan Watson Islambekov, Ilya CHIRA_JUNIOR Chirtsov, Ammar ATF Assaf, and Martin Saksa Sazdov.",
+"documents": 1,
+"sentiment": "positive",
+"category": "Financial Opportunity"
+},
+{
+"start": "2026-10-09T03:22Z",
+"entity": "Yandex",
+"title": "Yandex Images Offers Reverse Image Search",
+"text": "Yandex Images provides a reverse image search service that utilizes the Yandex search engine to find diverse content types such as postcards and manuals. The service focuses on delivering visually accurate results and detailed image matches for users.",
+"documents": 1,
+"sentiment": "neutral",
+"category": "Business Expansion"
+},
+{
+"start": "2026-10-12T09:24Z",
+"entity": "Yandex",
+"title": "Yandex Launches Panorama Advertising Tool",
+"text": "Yandex introduced the Panorama tool for advertisers in over 80 countries to run unified advertising campaigns across its digital services and digital out-of-home platforms. The tool integrates various media formats and follows a period where foreign advertiser spending on the Russian market through Yandex grew significantly.",
+"documents": 1,
+"sentiment": "positive",
+"category": "Business Expansion"
+}
+]
+}

@@ -1,0 +1,242 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "n": 1,
+    "id": "sasovo",
+    "label": "Sasovo",
+    "date": "2026-10-08",
+    "time_reported": "0:31 (GMT + 2)",
+    "time_utc": "2026-10-07T22:31:00Z",
+    "operator": "Yandex",
+    "site": "Sasovo, Ryazan region",
+    "power": "~12 MW (Kommersant)",
+    "cloud_zone": "ru-central1-b",
+    "operator_statement": "Yandex: 'seriously damaged in a drone attack'; 'completely shut down'; no employees hurt; no restoration timeline",
+    "physical_damage": "Fire at facility (Meduza). Ryazan authorities: roof of 'one of the enterprises' caught fire, plant not named. Status of supercomputers Chervonenkis and Lyapunov (housed here) not reported",
+    "service_effects": "Reported problems with Yandex Cloud, Disk, Documents; outages reported on websites of Cian, Russian Railways and several regional administrations. Yandex shares fell >3%",
+    "casualties": "None reported at site",
+    "primary_evidence": "https://status.yandex.cloud/ru/incidents/2092",
+    "sources": [
+     "https://yandex.com/company/news/2026-10-09",
+     "https://meduza.io/en/feature/2026/10/08/ukraine-strikes-yandex-data-center-housing-two-of-the-company-s-supercomputers",
+     "https://www.theregister.com/security/2026/10/12/ukrainian-drone-strikes-on-yandex-datacenters-knock-cloud-and-payments-offline/5302577"
+    ],
+    "notes": "",
+    "event_key": "Sasovo 2026-10-07/08",
+    "location": "Sasovo, Ryazan oblast; part of former Sasta machine-tool plant",
+    "commissioned": "2014",
+    "racks": "n/a",
+    "servers": "'tens of thousands' (SecurityLab)",
+    "area": "n/a",
+    "facility_notes": "Hosts supercomputers Chervonenkis (21.53 PFLOPS, #19 TOP500 Nov 2021) and Lyapunov (12.81 PFLOPS, #40); Yandex Cloud zone ru-central1-b (per SecurityLab citing Yandex Cloud status page)",
+    "conflicts": "Power figure is a press estimate, not an operator disclosure",
+    "spec_sources": [
+     "https://www.kommersant.ru/doc/9024163",
+     "https://www.securitylab.ru/news/578479.php",
+     "https://meduza.io/en/feature/2026/10/08/ukraine-strikes-yandex-data-center-housing-two-of-the-company-s-supercomputers"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     41.939822,
+     54.373423
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "n": 2,
+    "id": "kaluga",
+    "label": "Kaluga",
+    "date": "2026-10-09",
+    "time_reported": "Night",
+    "time_utc": null,
+    "operator": "Yandex",
+    "site": "Kaluga, Kaluga region",
+    "power": "63 MW design (~58 MW IT; planned PUE 1.07-1.09)",
+    "cloud_zone": "unknown",
+    "operator_statement": "Yandex: 'several modules of the data center have been completely disabled'; 'part of its infrastructure is out of service'; no employees hurt; damage still being assessed",
+    "physical_damage": "Partial: several modules disabled (total number of modules not given). Kaluga governor: infrastructure damaged",
+    "service_effects": "Not attributed to this site specifically. Yandex shares fell ~4%",
+    "casualties": "Governor Shapsha: 9 injured in Kaluga - NOT linked to the data center by officials",
+    "primary_evidence": "https://yandex.com/company/news/2026-10-09",
+    "sources": [
+     "https://yandex.com/company/news/2026-10-09",
+     "https://meduza.io/en/news/2026/10/09/several-modules-of-yandex-s-data-center-in-russia-completely-knocked-out-by-ukrainian-drone-strike",
+     "https://www.themoscowtimes.com/2026/10/12/ukraines-strikes-on-yandex-data-centers-explained-a93953"
+    ],
+    "notes": "",
+    "event_key": "Kaluga 2026-10-09",
+    "location": "Grabtsevo industrial park, Kaluga",
+    "commissioned": "Construction 2022; first phase end 2023",
+    "racks": ">3,800 (~15 kW each)",
+    "servers": "n/a",
+    "area": "~130,000 m2 (as reported by ComNews; unclear if site or floor area)",
+    "facility_notes": "Yandex's largest data center; 4th Yandex Cloud availability zone",
+    "conflicts": "Design figures from 2022 announcement; built-out share at time of strike unknown",
+    "spec_sources": [
+     "https://www.comnews.ru/content/222303/2022-09-23/2022-w38/krupneyshiy-data-centr-rossii-stanet-novoy-tochkoy-dostupnosti-platformy-yandex-cloud",
+     "https://www.kommersant.ru/doc/9024163"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     36.350083,
+     54.57662
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "n": 3,
+    "id": "vladimir",
+    "label": "Vladimir",
+    "date": "2026-10-11",
+    "time_reported": "3:11 (GMT+2)",
+    "time_utc": "2026-10-11T01:11:00Z",
+    "operator": "Yandex",
+    "site": "Vladimir, Vladimir region",
+    "power": "10 MW first phase; 40 MW planned in 4x10 MW phases (2017); ~40 MW (Kommersant 2026); ~56 MW (Militarnyi, unsourced)",
+    "cloud_zone": "ru-central1-a",
+    "operator_statement": "Yandex: infrastructure damaged, leading to complete shutdown of the data center; no one injured",
+    "physical_damage": "Fire on site. RFE/RL satellite imagery (via Militarnyi): 5 of 9 buildings damaged - in one data center block all four buildings hit, in the second a single impact. Galushkin 'likely damaged' per T-invariant (unconfirmed)",
+    "service_effects": "Vladimir supports Yandex Pay (per Yandex fintech head Pirogov) - Pay offline as of 12 Oct. Cumulative effect of all three Yandex strikes: Yandex Cloud in 'limited mode', NetBlocks ~30% of normal on 11 Oct; Yandex advised customers to move hosting; client sites (Magnit, Vkusno i Tochka, M.Video) affected; disruptions in Kazakhstan, Kyrgyzstan, Uzbekistan, Yerevan; Kommersant source: replacement equipment could take up to 6 months",
+    "casualties": "None reported at site. Regional head: ~1,600 customers lost power in Vladimir region - NOT linked to the data center by officials",
+    "primary_evidence": "https://status.yandex.cloud/ru/incidents/2136",
+    "sources": [
+     "https://www.themoscowtimes.com/2026/10/11/russias-yandex-says-data-center-in-vladimir-shut-down-after-drone-attack-a93942",
+     "https://militarnyi.com/en/news/strike-yandex-data-center-buildings-damaged/",
+     "https://www.theregister.com/security/2026/10/12/ukrainian-drone-strikes-on-yandex-datacenters-knock-cloud-and-payments-offline/5302577",
+     "https://www.themoscowtimes.com/2026/10/12/ukraines-strikes-on-yandex-data-centers-explained-a93953"
+    ],
+    "notes": "",
+    "event_key": "Vladimir 2026-10-11",
+    "location": "Energetik microdistrict, Vladimir; ~6 ha site",
+    "commissioned": "5 Sept 2017 (first phase)",
+    "racks": "n/a",
+    "servers": "n/a",
+    "area": "~6 ha site; 9 buildings on site (RFE/RL imagery via Militarnyi)",
+    "facility_notes": "Full free cooling (outside air); hosts Galushkin supercomputer; supports Yandex Pay; first phase >2.5 bn RUB",
+    "conflicts": "Power: 40 MW vs 56 MW - use 40 MW (two sources incl. original plan) unless 56 MW is sourced",
+    "spec_sources": [
+     "https://zebra-tv.ru/novosti/biznes/yandeks-stal-vladimirskim/",
+     "https://www.kommersant.ru/doc/9024163",
+     "https://militarnyi.com/en/news/strike-yandex-data-center-buildings-damaged/"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     40.188813,
+     56.101609
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "n": 4,
+    "id": "balakovo",
+    "label": "Balakovo",
+    "date": "2026-10-14",
+    "time_reported": "Early morning",
+    "time_utc": null,
+    "operator": "Sberbank",
+    "site": "Balakovo, Saratov region",
+    "power": "Up to 82 MW peak (Kommersant); >80 MW (DCD)",
+    "cloud_zone": "unknown",
+    "operator_statement": "Sber (Vedyakhin): 'We confirm the attack on the data center'; all systems and services operating normally; no staff hurt; damage not disclosed",
+    "physical_damage": "Not disclosed. Local social-media photos appear to show a damaged building (unverified). NV: commercial satellite monitoring recorded thermal anomalies at the complex (coordinates not published)",
+    "service_effects": "Sber says none. Same day, widespread user-reported disruptions (DownDetector, Sboy.rf) at Sber, GigaChat, Samokat and many unrelated providers (Rostelecom, MTS, MegaFon, VK, Gosuslugi, banks) - causal link to Balakovo NOT established. Sber shares -0.7%",
+    "casualties": "Governor Busargin: 1 civilian killed, several residential buildings damaged by drone debris - NOT linked to the data center site",
+    "primary_evidence": "https://x.com/Exilenova_plus/status/2110198921423392885?s=20",
+    "sources": [
+     "https://www.kommersant.ru/doc/9026239",
+     "https://www.datacenterdynamics.com/en/news/sberbank-data-center-in-russia-struck-by-ukrainian-military/",
+     "https://ru.themoscowtimes.com/2026/10/14/vrunete-proizoshel-masshtabnii-sboi-posle-ataki-nadata-tsentr-sberbanka-vsaratovskoi-oblasti-a208580",
+     "https://ru-bezh.ru/kompanii-i-ryinki/news/26/10/14/ataka-bpla-na-stroyashchiysya-mega-tsod-sbera-v-balakovo-ne-povl",
+     "https://english.nv.ua/nation/ukrainian-drones-target-sberbank-it-center-in-russia-50649891.html"
+    ],
+    "notes": "Missing from OSM datasets - most likely due to being classified as under construction till 2027",
+    "event_key": "Balakovo 2026-10-13/14",
+    "location": "Balakovo SEZ, Saratov oblast, near Balakovo NPP (SEZ parcel ~53.6 ha)",
+    "commissioned": "Memorandum 2020; construction 2021; full commissioning planned 2027; some blocks reportedly operating",
+    "racks": ">=3,000",
+    "servers": "~120,000",
+    "area": "~55,000 m2 in 7 modules",
+    "facility_notes": "Intended host for GosTech government platform; dedicated 220 kV substation (2x100 MVA) planned (Suty News)",
+    "conflicts": "Cost: 30 bn RUB (CNews 2021 estimate) vs 122.2 bn RUB (Ukrinform 2026). All figures are planned full build-out, not current state",
+    "spec_sources": [
+     "https://www.kommersant.ru/doc/9026239",
+     "https://www.datacenterdynamics.com/en/news/sberbank-data-center-in-russia-struck-by-ukrainian-military/",
+     "https://www.cnews.ru/news/top/2021-09-07_sberbank_stroit_krupnejshij",
+     "https://saratov-oez.ru/about-us/",
+     "https://sutynews.ru/index.php?id=11572&mode=articles"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     47.795994,
+     51.962552
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "n": 5,
+    "id": "novosergievka",
+    "label": "Novosergievka",
+    "date": "2026-10-18",
+    "time_reported": "3:00 (GMT+2)",
+    "time_utc": null,
+    "operator": "VK",
+    "site": "St. Petersburg, Leningrad region",
+    "power": "20 MW total, 6.5 MW guaranteed: max 5 kW/rack (alldc.ru)",
+    "cloud_zone": "unknown",
+    "operator_statement": "VK: 'A UAV attack was carried out on the VK data center in Leningrad region. VK services are available to users as normal'",
+    "physical_damage": "Not disclosed; no imagery of the data center itself published yet. Adjacent Vostochnaya 330 kV substation reportedly struck",
+    "service_effects": "NetBlocks: VK connectivity at 56% of normal; Sboy.rf complaint spike 03:00-05:00 local; users reported site not loading / messages failing, later stabilised. St Petersburg governor warned mobile internet may be disrupted (confounder)",
+    "casualties": "Governor Drozdenko: 4 injured incl. 3 children from drone debris near Kirovsk and in Vsevolozhsk - NOT linked to the data center. ~20,000 residents lost power after line damage",
+    "primary_evidence": "https://www.rbc.ua/ukr/news/droni-vrazili-data-tsentr-vkontakte-peterburzi-1792287810.html",
+    "sources": [
+     "https://habr.com/ru/news/1095754/",
+     "https://x.com/netblocks/status/2111633279204065302",
+     "https://united24media.com/war-in-ukraine/drone-strike-hits-russias-vkontakte-data-center-knocking-services-offline-as-st-petersburg-faces-blackouts-23551",
+     "https://militarnyi.com/en/news/drones-strike-vkontakte-data-center-and-oil-terminal-in-russia-s-leningrad-region/",
+     "https://www.belnovosti.by/v-mire/vsu-udarili-po-data-centru-vk-v-leningradskoy-oblasti-postradali-lyudi"
+    ],
+    "notes": "",
+    "event_key": "Leningrad obl. 2026-10-17/18",
+    "location": "~2 km from Novosergievka, Zanevskaya volost, Vsevolozhsk district; next to 330 kV Vostochnaya substation",
+    "commissioned": "1 April 2011 (alldc.ru)",
+    "racks": "160 (alldc.ru) vs 640 in 4 halls (UNITED24/Militarnyi 2026)",
+    "servers": "20,000+ (UNITED24/Militarnyi)",
+    "area": "12,000 m2 total, 6,000 m2 raised floor (alldc.ru)",
+    "facility_notes": "A second VK-linked data center, M100 (operator OOO M100), received a construction permit in Novosergievka in 2025",
+    "conflicts": "Rack count 160 vs 640 (possible expansion or different counting). Which Novosergievka facility was struck (2011 DC or M100 site) not established",
+    "spec_sources": [
+     "https://alldc.ru/dcs/cod/599.html",
+     "https://servernews.ru/1123564",
+     "https://united24media.com/war-in-ukraine/drone-strike-hits-russias-vkontakte-data-center-knocking-services-offline-as-st-petersburg-faces-blackouts-23551",
+     "https://militarnyi.com/en/news/drones-strike-vkontakte-data-center-and-oil-terminal-in-russia-s-leningrad-region/"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     30.577922,
+     59.911481
+    ]
+   }
+  }
+ ]
+}

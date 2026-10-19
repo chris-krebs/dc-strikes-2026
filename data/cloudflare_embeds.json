@@ -1,0 +1,153 @@
+{
+ "period": "1–19 October 2026",
+ "accessed": "19 Oct 2026",
+ "groups": [
+  {
+   "id": "ru",
+   "label": "Russia",
+   "note": "Country-level traffic seen by Cloudflare. National totals mix many networks and also reflect mobile-internet restrictions, so a dip here is not specific to any data center.",
+   "embeds": [
+    {
+     "title": "Traffic volume in Russian Federation",
+     "src": "https://radar.cloudflare.com/embed/TrafficVolumeXY?theme=dark&dateStart=2026-10-01&dateEnd=2026-10-19&location=ru&ref=%2Ftraffic%2Fru",
+     "height": 323,
+     "citation": "Cloudflare, Inc. \"Traffic volume in Russian Federation.\" Cloudflare Radar, 2026, radar.cloudflare.com/traffic/ru?dateStart=2026-10-01&dateEnd=2026-10-19#traffic-volume. Accessed 19 Oct. 2026.",
+     "url": "https://radar.cloudflare.com/traffic/ru?dateStart=2026-10-01&dateEnd=2026-10-19#traffic-volume"
+    },
+    {
+     "title": "Traffic trends in Russian Federation",
+     "src": "https://radar.cloudflare.com/embed/TrafficTrendsXY?theme=dark&dateStart=2026-10-01&dateEnd=2026-10-19&location=ru&ref=%2Ftraffic%2Fru",
+     "height": 443,
+     "citation": "Cloudflare, Inc. \"Traffic trends in Russian Federation.\" Cloudflare Radar, 2026, radar.cloudflare.com/traffic/ru?dateStart=2026-10-01&dateEnd=2026-10-19#traffic-trends. Accessed 19 Oct. 2026.",
+     "url": "https://radar.cloudflare.com/traffic/ru?dateStart=2026-10-01&dateEnd=2026-10-19#traffic-trends"
+    },
+    {
+     "title": "HTTP traffic in Russian Federation",
+     "src": "https://radar.cloudflare.com/embed/HttpTrafficXY?theme=dark&dateStart=2026-10-01&dateEnd=2026-10-19&location=ru&ref=%2Ftraffic%2Fru",
+     "height": 438,
+     "citation": "Cloudflare, Inc. \"HTTP traffic in Russian Federation.\" Cloudflare Radar, 2026, radar.cloudflare.com/traffic/ru?dateStart=2026-10-01&dateEnd=2026-10-19#http-traffic. Accessed 19 Oct. 2026.",
+     "url": "https://radar.cloudflare.com/traffic/ru?dateStart=2026-10-01&dateEnd=2026-10-19#http-traffic"
+    },
+    {
+     "title": "API traffic in Russian Federation",
+     "src": "https://radar.cloudflare.com/embed/ApiTrafficXY?theme=dark&dateStart=2026-10-01&dateEnd=2026-10-19&location=ru&ref=%2Ftraffic%2Fru",
+     "height": 438,
+     "citation": "Cloudflare, Inc. \"API traffic in Russian Federation.\" Cloudflare Radar, 2026, radar.cloudflare.com/traffic/ru?dateStart=2026-10-01&dateEnd=2026-10-19#api-traffic. Accessed 19 Oct. 2026.",
+     "url": "https://radar.cloudflare.com/traffic/ru?dateStart=2026-10-01&dateEnd=2026-10-19#api-traffic"
+    }
+   ]
+  },
+  {
+   "id": "yandex",
+   "label": "Yandex (AS13238)",
+   "note": "AS13238 is Yandex's main network. Yandex Cloud (AS200350), the network in the IODA chart above, is a separate network.",
+   "embeds": [
+    {
+     "title": "Traffic volume from AS13238",
+     "src": "https://radar.cloudflare.com/embed/TrafficVolumeXY?theme=dark&dateStart=2026-10-01&dateEnd=2026-10-19&location=as13238&ref=%2Ftraffic%2Fas13238",
+     "height": 294,
+     "citation": "Cloudflare, Inc. \"Traffic volume from AS13238.\" Cloudflare Radar, 2026, radar.cloudflare.com/traffic/as13238?dateStart=2026-10-01&dateEnd=2026-10-19#traffic-volume. Accessed 19 Oct. 2026.",
+     "url": "https://radar.cloudflare.com/traffic/as13238?dateStart=2026-10-01&dateEnd=2026-10-19#traffic-volume"
+    },
+    {
+     "title": "Traffic trends from AS13238",
+     "src": "https://radar.cloudflare.com/embed/TrafficTrendsXY?theme=dark&dateStart=2026-10-01&dateEnd=2026-10-19&location=as13238&ref=%2Ftraffic%2Fas13238",
+     "height": 438,
+     "citation": "Cloudflare, Inc. \"Traffic trends from AS13238.\" Cloudflare Radar, 2026, radar.cloudflare.com/traffic/as13238?dateStart=2026-10-01&dateEnd=2026-10-19#traffic-trends. Accessed 19 Oct. 2026.",
+     "url": "https://radar.cloudflare.com/traffic/as13238?dateStart=2026-10-01&dateEnd=2026-10-19#traffic-trends"
+    },
+    {
+     "title": "HTTP traffic from AS13238",
+     "src": "https://radar.cloudflare.com/embed/HttpTrafficXY?theme=dark&dateStart=2026-10-01&dateEnd=2026-10-19&location=as13238&ref=%2Ftraffic%2Fas13238",
+     "height": 438,
+     "citation": "Cloudflare, Inc. \"HTTP traffic from AS13238.\" Cloudflare Radar, 2026, radar.cloudflare.com/traffic/as13238?dateStart=2026-10-01&dateEnd=2026-10-19#http-traffic. Accessed 19 Oct. 2026.",
+     "url": "https://radar.cloudflare.com/traffic/as13238?dateStart=2026-10-01&dateEnd=2026-10-19#http-traffic"
+    },
+    {
+     "title": "API traffic from AS13238",
+     "src": "https://radar.cloudflare.com/embed/ApiTrafficXY?theme=dark&dateStart=2026-10-01&dateEnd=2026-10-19&location=as13238&ref=%2Ftraffic%2Fas13238",
+     "height": 438,
+     "citation": "Cloudflare, Inc. \"API traffic from AS13238.\" Cloudflare Radar, 2026, radar.cloudflare.com/traffic/as13238?dateStart=2026-10-01&dateEnd=2026-10-19#api-traffic. Accessed 19 Oct. 2026.",
+     "url": "https://radar.cloudflare.com/traffic/as13238?dateStart=2026-10-01&dateEnd=2026-10-19#api-traffic"
+    },
+    {
+     "title": "Content type from AS13238",
+     "src": "https://radar.cloudflare.com/embed/TrafficContentTypeXY?theme=dark&dateStart=2026-10-01&dateEnd=2026-10-19&location=as13238&ref=%2Ftraffic%2Fas13238",
+     "height": 438,
+     "citation": "Cloudflare, Inc. \"Content type from AS13238.\" Cloudflare Radar, 2026, radar.cloudflare.com/traffic/as13238?dateStart=2026-10-01&dateEnd=2026-10-19#content-type. Accessed 19 Oct. 2026.",
+     "url": "https://radar.cloudflare.com/traffic/as13238?dateStart=2026-10-01&dateEnd=2026-10-19#content-type"
+    }
+   ]
+  },
+  {
+   "id": "sber",
+   "label": "Sberbank (AS35237, AS47457)",
+   "note": "AS35237 is Sberbank's main network. AS47457 is registered with RIPE as SBERBANK-BALAKOVO-AS since 2008, which predates the Balakovo data center (construction from 2021), so it is not confirmed that this network serves the struck site.",
+   "embeds": [
+    {
+     "title": "Traffic trends from AS35237",
+     "src": "https://radar.cloudflare.com/embed/TrafficTrendsXY?theme=dark&dateStart=2026-10-01&dateEnd=2026-10-19&location=as35237&ref=%2Ftraffic%2Fas35237",
+     "height": 438,
+     "citation": "Cloudflare, Inc. \"Traffic trends from AS35237.\" Cloudflare Radar, 2026, radar.cloudflare.com/traffic/as35237?dateStart=2026-10-01&dateEnd=2026-10-19#traffic-trends. Accessed 19 Oct. 2026.",
+     "url": "https://radar.cloudflare.com/traffic/as35237?dateStart=2026-10-01&dateEnd=2026-10-19#traffic-trends"
+    },
+    {
+     "title": "HTTP traffic from AS35237",
+     "src": "https://radar.cloudflare.com/embed/HttpTrafficXY?theme=dark&dateStart=2026-10-01&dateEnd=2026-10-19&location=as35237&ref=%2Ftraffic%2Fas35237",
+     "height": 438,
+     "citation": "Cloudflare, Inc. \"HTTP traffic from AS35237.\" Cloudflare Radar, 2026, radar.cloudflare.com/traffic/as35237?dateStart=2026-10-01&dateEnd=2026-10-19#http-traffic. Accessed 19 Oct. 2026.",
+     "url": "https://radar.cloudflare.com/traffic/as35237?dateStart=2026-10-01&dateEnd=2026-10-19#http-traffic"
+    },
+    {
+     "title": "Traffic trends from AS47457",
+     "src": "https://radar.cloudflare.com/embed/TrafficTrendsXY?theme=dark&dateStart=2026-10-01&dateEnd=2026-10-19&location=as47457&ref=%2Ftraffic%2Fas47457",
+     "height": 438,
+     "citation": "Cloudflare, Inc. \"Traffic trends from AS47457.\" Cloudflare Radar, 2026, radar.cloudflare.com/traffic/as47457?dateStart=2026-10-01&dateEnd=2026-10-19#traffic-trends. Accessed 19 Oct. 2026.",
+     "url": "https://radar.cloudflare.com/traffic/as47457?dateStart=2026-10-01&dateEnd=2026-10-19#traffic-trends"
+    },
+    {
+     "title": "HTTP traffic from AS47457",
+     "src": "https://radar.cloudflare.com/embed/HttpTrafficXY?theme=dark&dateStart=2026-10-01&dateEnd=2026-10-19&location=as47457&ref=%2Ftraffic%2Fas47457",
+     "height": 438,
+     "citation": "Cloudflare, Inc. \"HTTP traffic from AS47457.\" Cloudflare Radar, 2026, radar.cloudflare.com/traffic/as47457?dateStart=2026-10-01&dateEnd=2026-10-19#http-traffic. Accessed 19 Oct. 2026.",
+     "url": "https://radar.cloudflare.com/traffic/as47457?dateStart=2026-10-01&dateEnd=2026-10-19#http-traffic"
+    }
+   ]
+  },
+  {
+   "id": "vk",
+   "label": "VK (AS47541)",
+   "note": "AS47541 is the same VK network as in the IODA chart above.",
+   "embeds": [
+    {
+     "title": "Traffic trends from AS47541",
+     "src": "https://radar.cloudflare.com/embed/TrafficTrendsXY?theme=dark&dateStart=2026-10-01&dateEnd=2026-10-19&location=as47541&ref=%2Ftraffic%2Fas47541",
+     "height": 438,
+     "citation": "Cloudflare, Inc. \"Traffic trends from AS47541.\" Cloudflare Radar, 2026, radar.cloudflare.com/traffic/as47541?dateStart=2026-10-01&dateEnd=2026-10-19#traffic-trends. Accessed 19 Oct. 2026.",
+     "url": "https://radar.cloudflare.com/traffic/as47541?dateStart=2026-10-01&dateEnd=2026-10-19#traffic-trends"
+    },
+    {
+     "title": "HTTP traffic from AS47541",
+     "src": "https://radar.cloudflare.com/embed/HttpTrafficXY?theme=dark&dateStart=2026-10-01&dateEnd=2026-10-19&location=as47541&ref=%2Ftraffic%2Fas47541",
+     "height": 438,
+     "citation": "Cloudflare, Inc. \"HTTP traffic from AS47541.\" Cloudflare Radar, 2026, radar.cloudflare.com/traffic/as47541?dateStart=2026-10-01&dateEnd=2026-10-19#http-traffic. Accessed 19 Oct. 2026.",
+     "url": "https://radar.cloudflare.com/traffic/as47541?dateStart=2026-10-01&dateEnd=2026-10-19#http-traffic"
+    },
+    {
+     "title": "Content type from AS47541",
+     "src": "https://radar.cloudflare.com/embed/TrafficContentTypeXY?theme=dark&dateStart=2026-10-01&dateEnd=2026-10-19&location=as47541&ref=%2Ftraffic%2Fas47541",
+     "height": 464,
+     "citation": "Cloudflare, Inc. \"Content type from AS47541.\" Cloudflare Radar, 2026, radar.cloudflare.com/traffic/as47541?dateStart=2026-10-01&dateEnd=2026-10-19#content-type. Accessed 19 Oct. 2026.",
+     "url": "https://radar.cloudflare.com/traffic/as47541?dateStart=2026-10-01&dateEnd=2026-10-19#content-type"
+    },
+    {
+     "title": "API traffic from AS47541",
+     "src": "https://radar.cloudflare.com/embed/ApiTrafficXY?theme=dark&dateStart=2026-10-01&dateEnd=2026-10-19&location=as47541&ref=%2Ftraffic%2Fas47541",
+     "height": 529,
+     "citation": "Cloudflare, Inc. \"API traffic from AS47541.\" Cloudflare Radar, 2026, radar.cloudflare.com/traffic/as47541?dateStart=2026-10-01&dateEnd=2026-10-19#api-traffic. Accessed 19 Oct. 2026.",
+     "url": "https://radar.cloudflare.com/traffic/as47541?dateStart=2026-10-01&dateEnd=2026-10-19#api-traffic"
+    }
+   ]
+  }
+ ]
+}
