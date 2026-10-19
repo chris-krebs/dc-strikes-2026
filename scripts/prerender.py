@@ -1,7 +1,7 @@
 """Write the page content into index.html as plain HTML, so readers without JavaScript
 (search engines, link previews, AI summarisers) see the full investigation.
 
-Content goes between <!--B:name--> and <!--/B:name--> markers. The page script re-renders
+Content goes between <span hidden data-b="name"></span> and <span hidden data-e="name"></span> markers. The page script re-renders
 the same sections with interactivity; this only fills the static copy. Run by build_data.py,
 or on its own:  python3 scripts/prerender.py
 """
@@ -189,10 +189,12 @@ def run():
     }
     page = (SITE / "index.html").read_text(encoding="utf-8")
     for k, v in parts.items():
-        pat = re.compile(rf"<!--B:{re.escape(k)}-->.*?<!--/B:{re.escape(k)}-->", re.S)
+        # empty hidden spans as markers: some HTML-to-text converters drop everything between comments
+        b, end = f'<span hidden data-b="{k}"></span>', f'<span hidden data-e="{k}"></span>'
+        pat = re.compile(re.escape(b) + ".*?" + re.escape(end), re.S)
         if not pat.search(page):
             raise SystemExit(f"marker {k} missing from index.html")
-        page = pat.sub(lambda _m: f"<!--B:{k}-->{v}<!--/B:{k}-->", page)
+        page = pat.sub(lambda _m: b + v + end, page)
     (SITE / "index.html").write_text(page, encoding="utf-8")
     print(f"prerendered {len(parts)} sections into index.html")
 
