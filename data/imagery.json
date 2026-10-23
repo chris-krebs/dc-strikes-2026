@@ -23,8 +23,8 @@
    "w": 1322,
    "h": 1171,
    "title": "Sentinel-2, 9 Oct (after)",
-   "result": "inconclusive",
-   "caption": "Haze and cloud cover the scene. No building-level change can be read at 10 m.",
+   "result": "consistent",
+   "caption": "The western third of the main hall roof, light grey on 4 Oct, is dark on 9 Oct, with dark streaks across the middle section. The darkening stops at the roof edges, so it is not a cloud shadow. It matches the reported fire and the FIRMS detections over the hall. Haze covers part of the scene, and at 10 m the extent of the damage cannot be measured.",
    "credit": "Contains modified Copernicus Sentinel data 2026, processed with Copernicus Browser"
   }
  ],

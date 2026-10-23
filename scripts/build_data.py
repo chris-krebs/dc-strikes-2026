@@ -349,8 +349,8 @@ IMAGES = {
         ("01_YANDEX_SASOVO/A1_BEFORE_2026-10-04-00_00_2026-10-04-23_59_Sentinel-2_L1C_True_color.jpg", "s2-before.jpg",
          "Sentinel-2, 4 Oct (before)", "reference", "True colour, 10 m resolution.", S2),
         ("01_YANDEX_SASOVO/A2_AFTER_2026-10-09-00_00_2026-10-09-23_59_Sentinel-2_L1C_True_color.jpg", "s2-after.jpg",
-         "Sentinel-2, 9 Oct (after)", "inconclusive",
-         "Haze and cloud cover the scene. No building-level change can be read at 10 m.", S2),
+         "Sentinel-2, 9 Oct (after)", "consistent",
+         "The western third of the main hall roof, light grey on 4 Oct, is dark on 9 Oct, with dark streaks across the middle section. The darkening stops at the roof edges, so it is not a cloud shadow. It matches the reported fire and the FIRMS detections over the hall. Haze covers part of the scene, and at 10 m the extent of the damage cannot be measured.", S2),
     ],
     "kaluga": [
         ("02_YANDEX_KALUGA/Kaluga_FIRMS_2026-10-06_2026-10-14[@36.352,54.575,14.937z].png", "firms.jpg",
